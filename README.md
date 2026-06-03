@@ -153,6 +153,69 @@ The pattern mirrors how [UniCORE.Desktop](https://github.com/bryanunitek/UniCORE
 
 ---
 
+## NVarchar Data Mode — Open, Scrambled, Encrypted
+
+All NVARCHAR (string) data across the UniSaaS.UniCORE substrate is governed by a three-mode architecture:
+
+| Mode | Default | Description |
+|---|---|---|
+| **Scrambled** | ✅ Yes | Reversibly scrambled storage. Prevents casual database inspection. The owning system’s scramble key is required to read. |
+| **Open** | | Plain text. Used where scrambling is operationally inappropriate (e.g. full-text search indexes). |
+| **Encrypted** | | Field-level encryption. Future feature (reserved). The customer holds the decryption key (sovereignty principle). |
+
+**Default posture: Scrambled.** All string fields arrive Scrambled unless explicitly resolved otherwise by a policy chain. The resolution cascade is: Workload → Tenant → Product → Default (Scrambled).
+
+This is a substrate-level concern inherited from [UniCORE.GVB](https://github.com/bryanunitek/UniCORE.GVB). Both the on-prem UniCORE and the SaaS UniSaaS.UniCORE deployments enforce the same posture. The deployment shape does not change the data-mode architecture.
+
+---
+
+## 10-Level Mass Data Generation
+
+The SaaS deployment shape includes a **10-level bootstrap seeder** that provisions the foundational user and role hierarchy per UniVERSE Foundation Document 45/54:
+
+| Level | Code | Name | AI Mode |
+|---|---|---|---|
+| 1 | 0001 | UniCORE-Global | GlobalAIMode |
+| 2 | 0002 | UniCORE-GlobalVirtualBridge | GlobalVirtualBridgeAIMode |
+| 3 | 0003 | UniCORE-Continental | ContinentalAIMode |
+| 4 | 0004 | UniCORE-Regional | RegionalAIMode |
+| 5 | 0005 | UniCORE-State | StateAIMode |
+| 6 | 0006 | UniCORE-DataCentre | DataCentreAIMode |
+| 7 | 0007 | UniCORE-Platform | PlatformAIMode |
+| 8 | 0008 | UniCORE-Product | ProductAIMode |
+| 9 | 0009 | UniCORE-Deployment | DeploymentAIMode |
+| 10 | 0010 | UniCORE-Tenant | TenantAIMode |
+
+Each level seeds one bootstrap user and one paired role. The seeder is idempotent. Default NVarchar posture for all seeded data: **Scrambled**.
+
+Levels 11 (RoleAIMode) and 12 (UserAIMode) remain in the per-tenant operational database — they are not bootstrap-level.
+
+---
+
+## Intelligent Integration Controller
+
+The Intelligent Integration Controller (IIC) is the integration and data-movement subsystem of UniSaaS.UniCORE. It provides secure messaging, secure file transfer manifests, and governed data exchange between systems — the integration spine that a Vertical CORE uses to connect to external systems (practice management, document management, billing, etc.) without exposing raw data paths.
+
+The IIC is built as a standalone service layer within the Vertical CORE working repository. At certification, the IIC interfaces and contracts become part of the UniSaaS.UniCORE gift surface (CC BY 4.0).
+
+**Integration / Import from 3rd-party systems:**
+
+The IIC includes a connector architecture for importing data from established practice-management and billing systems. The first production connector is **Aderant Expert** — a legacy system used by global law firms. The connector provides:
+- `AderantIntegrationTransactionAdapter` — transaction-level data import
+- `AderantRunProjectionService` — run-projection and workload planning
+- `AderantWorkloadHandler` — workload execution for governed import pipelines
+
+The connector pattern is repeatable: future connectors for other systems (Elite, Aderant iManage, 3E, etc.) follow the same interface shape.
+
+The working code lives in `bryanunitek/UniSaaS.UniCORE.Law-Claw` (the first SaaS Vertical CORE), structured as:
+- `UniCORE.Law.IntelligentIntegrationController.Abstractions` — contracts and DTOs
+- `UniCORE.Law.IntelligentIntegrationController.Core` — interfaces, services, resolver
+- `UniCORE.Law.IntelligentIntegrationController.Persistence` — store implementations
+- `UniCORE.Law.IntelligentIntegrationController.Service` — the hosted service entry point
+- `UniCORE.Law.IntelligentIntegrationController.Connectors.Aderant` — Aderant Expert connector
+
+---
+
 ## UniCORE Positioning Principle
 
 The programme is positioned as **Harmony, Peace, Space Exploration, for Humanity**.
