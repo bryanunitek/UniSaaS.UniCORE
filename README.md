@@ -92,11 +92,11 @@ UniCORE and UniSaaS.UniCORE are **sister implementation references** that differ
 
 | | UniCORE | UniSaaS.UniCORE |
 |---|---|---|
-| **Deployment topology** | On the customer's own kit (their hardware, their data centre, their cloud account) | On the producer's hosted infrastructure (multi-tenant, shared, hosted) |
+| **Deployment topology** | On the customer's own kit (their hardware, their data centre, their cloud account) | Hosted SaaS (multi-tenant on operator's infrastructure) **or** Private SaaS (multi-tenant on the customer's own kit) |
 | **Tenancy** | Single-tenant — one deployment serves one organisation | Multi-tenant — one deployment serves many organisations |
 | **Tenant resolution** | Out-of-scope — one tenant per deployment | In-scope — tenant-by-domain, tenant-by-email, signing-key separation |
 | **Signing keys** | One key set per deployment | Per-tenant key separation; cross-tenant attack-surface guards |
-| **Operational model** | Customer holds operational responsibility | SaaS operator (e.g. Unitek Systems USA Inc) holds operational responsibility |
+| **Operational model** | Customer holds operational responsibility | **Hosted SaaS:** SaaS operator (e.g. Unitek Systems USA Inc) holds operational responsibility. **Private SaaS:** Customer holds operational responsibility (a global entity runs the SaaS stack on their own kit). |
 | **Governance** | Same | Same |
 | **Foundation invariants** | Same | Same |
 | **12-Level reference architecture** | Same | Same |
@@ -107,6 +107,18 @@ UniCORE and UniSaaS.UniCORE are **sister implementation references** that differ
 The substrate-services layer (UniCORE.GVB / UniSaaS.UniCORE.GVB) carries the same deployment-shape distinction — the Linux/Windows substrates of UniCORE.GVB serve on-prem; UniSaaS.UniCORE.GVB serves the SaaS topology. See [UniSaaS.UniCORE.GVB](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB).
 
 Vertical Solutions inherit from UniCORE when they are deployed on-prem and from UniSaaS.UniCORE when they are deployed as a SaaS. The Vertical CORE Business Objects on top can be the same; the substrate underneath them differs only by deployment shape.
+
+---
+
+## Three SaaS operator positions
+
+Under SaaS-shape deployment, UniSaaS.UniCORE may be operated in one of three positions, all under the same CC BY 4.0 licence:
+
+1. **Hosted SaaS** — operated by a SaaS operator (e.g. **Unitek Systems USA Inc** as PROD-tier operator from Phase II onward) on the operator's infrastructure, serving many tenants. **Operator holds operational responsibility.**
+2. **Private SaaS** — a global entity (typically a customer at scale) runs the SaaS stack on **their own hardware, their own data centre, their own cloud account**. **The customer holds operational responsibility.** The same code runs; the operator shape changes. Useful when the entity is large enough to not want shared hosting but still wants the SaaS deployment shape.
+3. **Self-hosted** — any third party stands up the SaaS stack on infrastructure of their choosing under CC BY 4.0.
+
+The gift surface is uniform across all three positions. There is no privileged operator tier.
 
 ---
 
