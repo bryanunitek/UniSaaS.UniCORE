@@ -285,6 +285,22 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 - [`UniSaaS.UniCORE.DNN`](https://github.com/bryanunitek/UniSaaS.UniCORE.DNN) — SaaS-deployment-shape sister of UniCORE.DNN.
 - `bryanunitek/UniCORE.DNN-Claw` (private) — on-prem-shape working repository for UniCORE.DNN.
 - `bryanunitek/UniSaaS.UniCORE.DNN-Claw` (private) — SaaS-shape working repository.
+- [`UniCORE.Asterisk`](https://github.com/bryanunitek/UniCORE.Asterisk) — VoIP/PBX telephony engine. Fork of GPL-2.0 Asterisk + UniCORE additions. Full upstream history (34,425 commits).
+- [`UniSaaS.UniCORE.Asterisk`](https://github.com/bryanunitek/UniSaaS.UniCORE.Asterisk) — SaaS-deployment-shape sister of UniCORE.Asterisk.
+- `bryanunitek/UniCORE.Asterisk-Claw` (private) — on-prem-shape working repository for UniCORE.Asterisk.
+- `bryanunitek/UniSaaS.UniCORE.Asterisk-Claw` (private) — SaaS-shape working repository.
+- [`UniCORE.Jitsi`](https://github.com/bryanunitek/UniCORE.Jitsi) — Video conferencing (Meet + Videobridge). Fork of Apache-2.0 Jitsi + UniCORE additions. Multi-upstream (13,956 commits).
+- [`UniSaaS.UniCORE.Jitsi`](https://github.com/bryanunitek/UniSaaS.UniCORE.Jitsi) — SaaS-deployment-shape sister of UniCORE.Jitsi.
+- `bryanunitek/UniCORE.Jitsi-Claw` (private) — on-prem-shape working repository for UniCORE.Jitsi.
+- `bryanunitek/UniSaaS.UniCORE.Jitsi-Claw` (private) — SaaS-shape working repository.
+- [`UniCORE.Signal`](https://github.com/bryanunitek/UniCORE.Signal) — Secure messaging platform. Fork of AGPL-3.0 Signal Server + UniCORE additions. Full upstream history (5,010 commits).
+- [`UniSaaS.UniCORE.Signal`](https://github.com/bryanunitek/UniSaaS.UniCORE.Signal) — SaaS-deployment-shape sister of UniCORE.Signal.
+- `bryanunitek/UniCORE.Signal-Claw` (private) — on-prem-shape working repository for UniCORE.Signal.
+- `bryanunitek/UniSaaS.UniCORE.Signal-Claw` (private) — SaaS-shape working repository.
+- [`UniCORE.XCP`](https://github.com/bryanunitek/UniCORE.XCP) — Virtualisation platform (XCP-ng hypervisor + Xen Orchestra management). Fork of GPL-2.0/AGPL-3.0 + UniCORE additions. Multi-upstream (493 commits).
+- [`UniSaaS.UniCORE.XCP`](https://github.com/bryanunitek/UniSaaS.UniCORE.XCP) — SaaS-deployment-shape sister of UniCORE.XCP.
+- `bryanunitek/UniCORE.XCP-Claw` (private) — on-prem-shape working repository for UniCORE.XCP.
+- `bryanunitek/UniSaaS.UniCORE.XCP-Claw` (private) — SaaS-shape working repository.
 
 ---
 
