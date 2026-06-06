@@ -302,6 +302,9 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 - `bryanunitek/UniCORE.XCP-Claw` (private) — on-prem-shape working repository for UniCORE.XCP.
 - `bryanunitek/UniSaaS.UniCORE.XCP-Claw` (private) — SaaS-shape working repository.
 
+
+**Full fleet inventory (193 repositories):**
+- The canonical fleet inventory is maintained in the Book of Unitek Systems Limited at `_inventory/UNICORE-REPOSITORY-INVENTORY.md`. It covers all 193 in-fleet repositories across 11 tiers, their branch state, visibility, upstream relationships, and licence positions. Updated 2026-06-06.
 ---
 
 ## Attribution
