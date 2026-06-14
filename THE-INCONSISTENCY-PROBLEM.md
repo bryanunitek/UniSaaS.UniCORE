@@ -10,16 +10,22 @@ Status: Public. Given, not sold. Irrevocable. CC BY 4.0.
 
 ## Summary (TL;DR)
 
-Institutional AI fails the moment the same input produces a different output. Different vendors give different answers. The same vendor gives different answers in different sessions. Even the same session can drift. Acceptable for a recipe or a bedtime story. Structurally unsafe for a credit decision, a clinical triage, a tax classification, a privilege ruling, or any outcome that touches money, freedom, health, or rights.
+Institutional AI fails the moment the same input produces a different output. Different vendors give different answers. The same vendor gives different answers in different sessions. Even the same session can drift. Multiple humans steering the same Claw produce conflicting authority. Acceptable for a recipe or a bedtime story. Structurally unsafe for a credit decision, a clinical triage, a tax classification, a privilege ruling, or any outcome that touches money, freedom, health, or rights.
 
-UniSaaS.UniCORE answers this with the same two-layer architecture as its on-prem sister [UniCORE](https://github.com/bryanunitek/UniCORE):
+UniSaaS.UniCORE answers this with **three structurally independent guarantees** across **two surfaces**, the same as its on-prem sister [UniCORE](https://github.com/bryanunitek/UniCORE):
+
+**Machine-side answer (two layers):**
 
 1. **Foundation consistency** — the UniCORE-AI 12-Level governance stack and the per-level governance MD files. Same input + same governance state → same output.
 2. **Vertical consistency** — each Vertical CORE (Law, Banking, Healthcare, Accounting, …) inherits foundation consistency and adds industry-specific consistency primitives on top.
 
-The deployment shape (SaaS multi-tenant) does not change the consistency guarantee. It changes how the guarantee is delivered: the same governance MD-file set, the same Vertical CORE consistency rules, applied across multi-tenant routing rather than per-tenant on-prem nodes.
+**Human-side answer (one principle):**
 
-Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract).
+3. **Singular Pairing Principle (1H1C)** — one human, one AI Claw, one workstream. Closes the human-side inconsistency surface that machine-side guarantees cannot reach. Canonical at [`bryanunitek/TrueAI`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
+
+The deployment shape (SaaS multi-tenant) does not change the consistency guarantee. It changes how the guarantee is delivered: the same governance MD-file set, the same Vertical CORE consistency rules, the same 1H1C producer-pair shape, applied across multi-tenant routing rather than per-tenant on-prem nodes.
+
+Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract). All three guarantees hold simultaneously; removing any one breaks the institutional case for the whole.
 
 ---
 
@@ -80,27 +86,45 @@ Foundation consistency is the floor. Vertical-specific consistency primitives si
 
 The first Vertical CORE in SaaS shape is `UniSaaS.UniCORE.Law-Claw` (working repository, private until certification).
 
-## 5. The combined guarantee — SaaS edition
+## 5. The human-side answer — Singular Pairing Principle (1H1C)
 
-Putting both layers together, the institutional guarantee a UniSaaS.UniCORE-conformant SaaS Vertical CORE makes is:
+Foundation consistency and vertical consistency close the **machine-side** of the Inconsistency Problem. They guarantee that the same input, with the same governance state, in the same vertical, produces the same output across vendors, sessions, SaaS tenants (up to the tenant-context boundary), and years.
 
-> **Same user input + same governance MD-file set + same tenant context + same Vertical-CORE consistency rules → same output.**
+There is a second surface the machine-side answer cannot reach: **the humans steering the AI**.
+
+Multiple humans on one Claw produce conflicting authority signals; the AI cannot reconcile them without assuming authority it does not have. A single human across multiple parallel Claws produces context fragmentation; decisions made on one Claw are not visible on another. Committee-at-the-session-level produces no named authority; the AI is steered by the loudest voice in the room rather than by a single accountable signature. Each of these is a **human-side inconsistency** failure that arrives at the same outcome the machine-side is trying to prevent: same facts, different result.
+
+In a SaaS deployment shape this surface matters more, not less. A SaaS operator's own producer-pairs build, certify, and operate the platform that many regulated tenants then run on. If the operator's producer-pairing topology is itself inconsistent, the inconsistency propagates downward through every tenant on the platform.
+
+The structural answer to the human-side surface is the **Singular Pairing Principle (1H1C)**: one human, one AI Claw, one workstream. The full doctrine — including how bonds expand with Project Level (up to 14+ paired bonds for a Level-12 Project), Patterns 1 and 2, the Generation IT producer qualification, and the recommendation-and-variants policy — lives at the canonical TrueAI document:
+
+[`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)
+
+**Recommendation and variants.** 1H1C is the deployment topology Unitek Systems Limited recommends and the only one Unitek itself deploys. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C — including the SaaS-shape Solutions on this codebase. Variants — multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, committee-at-the-session — are permitted under CC BY 4.0 but classified as **untested theory** until independently demonstrated to close the human-side surface as reliably as 1H1C does. The certification gate today recognises 1H1C only.
+
+Foundation consistency, vertical consistency, and singular human pairing are three structurally independent guarantees. Removing any one of them breaks the institutional case for the whole — in any deployment shape.
+
+## 6. The combined guarantee — SaaS edition
+
+Putting all three answer surfaces together, the institutional guarantee a UniSaaS.UniCORE-conformant SaaS Vertical CORE makes is:
+
+> **Same user input + same governance MD-file set + same tenant context + same Vertical-CORE consistency rules + 1-Human-1-Claw producer pairing → same output.**
 >
-> Across vendors. Across SaaS sessions. Across tenants (up to the tenant-context boundary). Across years.
+> Across vendors. Across SaaS sessions. Across tenants (up to the tenant-context boundary). Across years. Across producer-pairs that satisfy 1H1C.
 
 This is the guarantee a regulator can audit. It is the guarantee a court can rely on. It is the guarantee an insurer can underwrite. It is the guarantee an institution can put its name to — even when the underlying delivery is multi-tenant SaaS.
 
-## 6. Where this doctrine sits in the corpus
+## 7. Where this doctrine sits in the corpus
 
 The three pillars of Institutional AI doctrine, in order:
 
 1. **Audience pillar** — Consumer AI vs Institutional AI.
 2. **Truth pillar** — TrueAI Foundation truth contract.
-3. **Consistency pillar** — *(this doc)*. Foundation consistency (UniCORE-AI 12 Levels + MD files) plus vertical consistency (per Vertical CORE).
+3. **Consistency pillar** — *(this doc)*. Two answer surfaces: **machine-side** (foundation consistency via UniCORE-AI 12 Levels + MD files; vertical consistency per Vertical CORE) and **human-side** (Singular Pairing Principle / 1H1C, canonical at TrueAI). Same input + same governance + same producer-pair shape → same output, structurally.
 
 All three pillars hold simultaneously. Removing any one of them breaks the institutional case for the whole.
 
-## 7. Sister documents on neighbouring repositories
+## 8. Sister documents on neighbouring repositories
 
 The same doctrine is mirrored on the four flagship public surfaces:
 
@@ -111,7 +135,7 @@ The same doctrine is mirrored on the four flagship public surfaces:
 
 The architectural primitives this doctrine references — TrueAI's invariants, UniCORE-AI's 12-level architecture — live in the Foundation triad repositories ([`TrueAI`](https://github.com/bryanunitek/TrueAI), [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI), [`UniVERSE`](https://github.com/bryanunitek/UniVERSE)).
 
-## 8. Honest position on current state
+## 9. Honest position on current state
 
 UniSaaS.UniCORE is documented but pre-source-code. The first SaaS Vertical CORE (`UniSaaS.UniCORE.Law-Claw`) is in active development but has not yet passed the certification gate. The Inconsistency Problem doctrine is locked structurally; the implementation that demonstrates it end-to-end arrives at certification, alongside the public source release.
 
