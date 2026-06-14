@@ -8,7 +8,7 @@ Status: Public. Given, not sold. Irrevocable. CC BY 4.0.
 
 ---
 
-## TL;DR
+## Summary (TL;DR)
 
 Institutional AI fails the moment the same input produces a different output. Different vendors give different answers. The same vendor gives different answers in different sessions. Even the same session can drift. Acceptable for a recipe or a bedtime story. Structurally unsafe for a credit decision, a clinical triage, a tax classification, a privilege ruling, or any outcome that touches money, freedom, health, or rights.
 
