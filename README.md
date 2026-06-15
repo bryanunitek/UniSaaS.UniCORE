@@ -18,6 +18,33 @@ A 30-year programme from apprentice to certified producer. A public foundation g
 
 ---
 
+## The three pillars
+
+UniCORE makes three structurally distinct claims. Each one closes a different failure surface. All three are required; removing any one breaks the institutional case for the whole.
+
+### Pillar 1 — Audience: Consumer AI vs Institutional AI
+
+Today's frontier AIs are configured for **consumer** use: variability, creativity, conversational warmth, and personalisation are *features*, not bugs. That is the right design for consumer surfaces. It is the wrong design for institutional surfaces — regulated decision-making, evidence-bound work, decisions that must be defensible to a third party. UniCORE is for the institutional audience: the same input, with the same governance state, in the same vertical, produces the same decision across vendors, sessions, nodes, and years.
+
+### Pillar 2 — Truth: the TrueAI Foundation truth contract
+
+What an AI system is permitted to claim, and what it is required to mark as unverified. The Nine Invariants of the [TrueAI Foundation](https://github.com/bryanunitek/TrueAI) make explicit: TRUE means evidenced, FALSE means falsified, UNVERIFIED means the system declined to assert. No third state where the system fabricates confidence it does not have.
+
+### Pillar 3 — Inconsistency: same input → same decision
+
+Truth without consistency is not deployable in regulated institutional settings. If the same evidenced claim produces TRUE today and UNVERIFIED tomorrow, the truth contract is hollow. The Inconsistency Problem is the third pillar. It is closed in two places by two different mechanisms:
+
+- **Machine-side**: foundation consistency (UniCORE-AI 12-Level governance + governance MD-files) + vertical consistency (per-Vertical-CORE primitives).
+- **Human-side**: 1H1C at the production layer (Singular Pairing Principle — one human, one AI Claw, one workstream, produces certified artefacts) + xH1C at the operations layer (x humans operating the deployed Solution through one substrate Claw as consistency-holding agent, with per-Level qualification in PROD).
+
+Canonical: [THE-INCONSISTENCY-PROBLEM.md](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md). The Singular Pairing Principle doctrine lives at [`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
+
+### Honest framing
+
+No AI architecture today can guarantee 100% end-to-end consistency. Probabilistic language models sit at the application boundary; their training is controlled by their vendors, not by UniCORE; and that training changes over time. What UniCORE makes is the **structural maximum** consistency achievable given that external-AI dependency, with the residual inconsistency **named, bounded, and auditable**.
+
+---
+
 # UniSaaS.UniCORE
 
 **The implementation reference for governed, human-sovereign artificial intelligence — SaaS deployment shape.**
