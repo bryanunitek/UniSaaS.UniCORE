@@ -22,16 +22,16 @@ UniSaaS.UniCORE answers this with **four structurally independent guarantees** a
 **Human-side answer (two layers):**
 
 3. **Production layer — Singular Pairing Principle (1H1C)**. One human, one AI Claw, one workstream produces the certified Solution. Closes the human-side surface for the artefacts being deployed. Canonical at [`bryanunitek/TrueAI`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
-4. **Operations layer — certified runbook discipline**. A deployed SaaS Solution is run 24/7 by a structured operations cohort under a certified runbook, not by a 1H1C pair. The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md).
+4. **Operations layer — xH1C with the substrate Claw as consistency-holding agent**. A deployed SaaS Solution is run 24/7 by a structured operations cohort under the substrate Claw, not by a 1H1C pair — the SaaS operational reality (multi-region, multi-shift, multi-tenant, multi-Level Claw) explicitly requires a cohort. The certified runbook is the operational artefact the Claw runs operators against; the runbook is not, on its own, the consistency mechanism. **xH1C** = x Humans, 1 Claw — as close to 1H1C as humanly possible at 24/7 SaaS scale. In PROD, per-Level qualification + no-Level-overlap apply. In DEV/TEST, the cohort collapses to **1H1C**. The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md).
 
 1. **Foundation consistency** — the UniCORE-AI 12-Level governance stack and the per-level governance MD files. Same input + same governance state → same output.
 2. **Vertical consistency** — each Vertical CORE (Law, Banking, Healthcare, Accounting, …) inherits foundation consistency and adds industry-specific consistency primitives on top.
 
-**Human-side answer (one principle):**
+**Human-side answer (two layers, same shape as on-prem):**
 
-3. **Singular Pairing Principle (1H1C)** — one human, one AI Claw, one workstream. Closes the human-side inconsistency surface that machine-side guarantees cannot reach. Canonical at [`bryanunitek/TrueAI`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
+Unchanged from items 3 and 4 above. SaaS deployment shape does not change the principles: 1H1C governs production; xH1C with the substrate Claw governs operations (collapsing to 1H1C in DEV/TEST).
 
-The deployment shape (SaaS multi-tenant) does not change the consistency guarantee. It changes how the guarantee is delivered: the same governance MD-file set, the same Vertical CORE consistency rules, the same 1H1C producer-pair shape, applied across multi-tenant routing rather than per-tenant on-prem nodes.
+The deployment shape (SaaS multi-tenant) does not change the consistency guarantee. It changes how the guarantee is delivered: the same governance MD-file set, the same Vertical CORE consistency rules, the same 1H1C producer-pair shape at production, the same xH1C cohort shape at operations, applied across multi-tenant routing rather than per-tenant on-prem nodes.
 
 Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract). All three guarantees hold simultaneously; removing any one breaks the institutional case for the whole.
 
@@ -94,33 +94,39 @@ Foundation consistency is the floor. Vertical-specific consistency primitives si
 
 The first Vertical CORE in SaaS shape is `UniSaaS.UniCORE.Law-Claw` (working repository, private until certification).
 
-## 5. The human-side answer — Singular Pairing Principle (1H1C), production-layer-scoped + certified runbook discipline at operations
+## 5. The human-side answer — Singular Pairing Principle (1H1C) at production + xH1C at operations
 
 Foundation consistency and vertical consistency close the **machine-side** of the Inconsistency Problem. They guarantee that the same input, with the same governance state, in the same vertical, produces the same output across vendors, sessions, SaaS tenants (up to the tenant-context boundary), and years — to the maximum extent the architecture controls.
 
 There is a second surface the machine-side answer cannot reach: **the humans steering the AI**. In SaaS shape this surface matters even more, because the SaaS operator's own producer-pairs build, certify, and operate the platform that many regulated tenants then run on. The surface is closed in **two different places** by **two different mechanisms**:
 
-### Production layer (1H1C)
+### Production layer — 1H1C
 
 The certified SaaS Solution — its governance MD-file set, its 12-Level path, its multi-tenant routing, its Vertical-CORE classification, its certification artefacts — is produced by a **Singular Pairing**: one human, one AI Claw, one workstream. 1H1C closes the human-side surface **for the artefacts being deployed** so the certified SaaS Solution does not inherit the inconsistency of its producers — which would otherwise propagate downward through every tenant on the platform.
 
-The full 1H1C doctrine — including the v1.2 production-layer-vs-operations-layer split, Project-Level bond expansion, Patterns 1 and 2, the Generation IT producer qualification, and the recommendation-and-variants policy — lives at the canonical TrueAI document:
+The full 1H1C doctrine — including the v1.3 production-layer-vs-operations-layer split, Project-Level bond expansion, Patterns 1 and 2, the Generation IT producer qualification, and the recommendation-and-variants policy — lives at the canonical TrueAI document:
 
 [`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)
 
-### Operations layer (certified runbook discipline)
+### Operations layer — xH1C with the substrate Claw as consistency-holding agent
 
-A deployed UniSaaS.UniCORE Solution is run 24/7 across multiple regions by a structured **operations cohort**, not by a 1H1C pair — the SaaS operational reality (multi-region, multi-shift, multi-tenant, multi-Level Claw) explicitly requires a cohort. Operations consistency is held by the **certified runbook**: explicit, version-locked, hash-attested operational procedures that translate the producer-pair's certified envelope into shift-by-shift execution. Operators do not steer the architecture; they run it under the runbook.
+A deployed UniSaaS.UniCORE Solution is run 24/7 across multiple regions by a structured operations cohort. The cohort is not 1H1C — the SaaS operational reality (multi-region, multi-shift, multi-tenant, multi-Level Claw) explicitly requires a cohort. The Singular Pairing posture is preserved at this layer by keeping **one Claw** — the substrate Claw bound to the certified Solution — as the consistency-holding agent across the cohort. The Claw runs the operators against the certified runbook; the runbook is the operational artefact, the Claw is the consistency mechanism. Without one Claw across the cohort, the operations layer fragments into x independent operator-runbook pairs — a fragmentation that in SaaS shape would propagate across every hosted tenant simultaneously.
+
+**xH1C = x Humans, 1 Claw.** As close to 1H1C as humanly possible at 24/7 SaaS operational scale, with the C side held singular and the H side scaled to tenant demand.
+
+In **PROD**: each operator is qualified for **one specific Level** of the UniCORE-AI 12-Level Governance Model. One operator staffs one Level only — no Level-overlap per human, even during break windows. Cross-Level break cover is provided by another Level-qualified human at the same Level.
+
+In **DEV / TEST**: the cohort collapses to **1H1C** — one human covers all 12 Levels through the substrate Claw — because there is no production tenant load and no per-tenant SLA. The producer-pair IS the operations cohort in DEV/TEST.
 
 ### Interface — Reasonable Governance Threshold
 
-The interface between production and operations is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md). Inside the threshold, operations handles the runtime question under the runbook. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry, new tenant class), the question escalates back to the producer-pair.
+The interface between production and operations is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md). Inside the threshold, the xH1C operations cohort handles the runtime question under the runbook through the substrate Claw. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry, new tenant class), the question escalates back to the producer-pair (1H1C).
 
 ### Recommendation and variants
 
 1H1C at the production layer is the deployment topology Unitek Systems Limited recommends and the only one Unitek itself deploys. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C — including the SaaS-shape Solutions on this codebase. Variants — multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, committee-at-the-session — are permitted under CC BY 4.0 but classified as **untested theory** until independently demonstrated to close the human-side surface as reliably as 1H1C does. The certification gate today recognises 1H1C only.
 
-Foundation consistency, vertical consistency, singular human pairing at the production layer, and certified runbook discipline at the operations layer are four structurally independent guarantees. Removing any one of them breaks the institutional case for the whole — in any deployment shape.
+Foundation consistency, vertical consistency, singular human pairing at the production layer (1H1C), and xH1C at the operations layer with the substrate Claw as consistency-holding agent are four structurally independent guarantees. Removing any one of them breaks the institutional case for the whole — in any deployment shape.
 
 ## 6. The combined guarantee — SaaS edition, honest framing
 
@@ -133,7 +139,7 @@ What UniSaaS.UniCORE makes is the **structural maximum** consistency achievable 
 
 Putting all three answer surfaces together, the institutional posture a UniSaaS.UniCORE-conformant SaaS Vertical CORE makes is:
 
-> **Same user input + same governance MD-file set + same tenant context + same Vertical-CORE consistency rules + 1-Human-1-Claw producer pairing at the production layer + certified runbook discipline at the operations layer → the closest end-to-end consistency achievable given the external-AI dependency, with the residual inconsistency named, bounded, and auditable.**
+> **Same user input + same governance MD-file set + same tenant context + same Vertical-CORE consistency rules + 1-Human-1-Claw producer pairing at the production layer + xH1C at the operations layer with the substrate Claw as consistency-holding agent and per-Level qualification (PROD) → the closest end-to-end consistency achievable given the external-AI dependency, with the residual inconsistency named, bounded, and auditable.**
 >
 > Across vendors. Across SaaS sessions. Across tenants (up to the tenant-context boundary). Across years. Across producer-pairs that satisfy 1H1C at the production layer. Across operations cohorts that run the certified runbook.
 >
