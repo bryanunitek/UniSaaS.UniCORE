@@ -157,12 +157,6 @@ The substrate is designed so that a Vertical CORE producer operating under diffe
 
 ---
 
-## Relationship to the Book of Unitek Systems Limited
-
-The operational and jurisdictional AI compliance posture for UniCORE.Law (the first Vertical CORE) is documented in the Book of Unitek Systems Limited, Chapter 21, §Global AI Compliance.
-
----
-
 ## Version
 
 | Version | Date | Change |

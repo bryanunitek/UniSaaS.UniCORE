@@ -152,12 +152,6 @@ Translated outputs do not alter the AI system's obligations under the EU AI Act.
 
 ---
 
-## Relationship to the Book of Unitek Systems Limited
-
-Operational and jurisdiction-specific localisation decisions (which DeepL plan, which currency display conventions for specific jurisdictions, which languages are prioritised for which Vertical CORE) are documented in the Book of Unitek Systems Limited, Chapter 22, §Localisation.
-
----
-
 ## Version
 
 | Version | Date | Change |
