@@ -129,3 +129,20 @@ The author reserves the right to issue public corrections, to request that the c
 UniSaaS.UniCORE is the SaaS-deployment-shape implementation reference layer of the UniVERSE / TrueAI / UniCORE AI programme. It is not a product. It is not a platform. It is not for sale. It is given, not sold. A gift to humanity for the next century of AI.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+
+---
+
+## Build Status Addendum (2026-06-27)
+
+This addendum records the **built-vs-wired honesty** behind public statements about UniCORE's completeness. It exists because the programme's governing principle is *attested, not asserted*: a public claim of "complete" must distinguish what is built and registered from what is exercised at runtime.
+
+As of 2026-06-27, against the live working repositories:
+
+- **Built and module-wired**: the Tier-2 Badge conformance substrate, the EU AI Act service envelopes (Articles 11–15, 17, 72, and the Annex IV technical-documentation builder), the 20 Global Law Compliance pillars, the Tier-1 Localisation five-axis policy chain (56 languages and locales), and the Global VAT jurisdiction gates (178). These types exist, are implemented, and are registered in the module dependency-injection composition.
+- **Not yet runtime-wired (the honest residual)**: on the GVB substrate, the Badge conformance check is built and unit-tested but not yet added to the governance startup chain. On the Law hosts, the AI-mode resolver is registered on some host applications but not all of them. Production exercise of the AI Act and Law-Compliance paths against real data, and the compile-and-test facts-pass across all solutions, remain the next phase.
+
+The precise, file-level status of every component — built / module-wired / host-wired — is maintained in the working repositories' `docs/WIRING-STATUS-LEDGER.md`. The 115-jurisdiction Regulatory Alignment Shelf count is verifiable in `regulatory-alignment/v1/JURISDICTION-INDEX.md` in the TrueAI repository.
+
+Numbers cited in public material are re-verified against the repository file tree before publication, not against any summary of it. Where this addendum and a working-repository ledger disagree, the ledger — generated from live source — governs.
+
+*This addendum is documentation-only under CC BY 4.0. It does not claim regulatory approval, attest conformity, or accept liability. Per-deployment compliance determinations remain the responsibility of the deployer and their qualified legal counsel.*
