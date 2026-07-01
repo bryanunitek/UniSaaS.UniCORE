@@ -199,17 +199,20 @@ The pattern mirrors how [UniCORE.Desktop](https://github.com/bryanunitek/UniCORE
 
 ---
 
-## NVarchar Data Mode — Open, Scrambled, Encrypted
+## NVarchar Data Mode — Open, Scrambled, Encrypted, Quancrypted
 
-All NVARCHAR (string) data across the UniSaaS.UniCORE substrate is governed by a three-mode architecture:
+All NVARCHAR (string) data across the UniSaaS.UniCORE substrate is governed by a four-mode architecture:
 
 | Mode | Default | Description |
 |---|---|---|
 | **Scrambled** | ✅ Yes | Reversibly scrambled storage. Prevents casual database inspection. The owning system’s scramble key is required to read. |
 | **Open** | | Plain text. Used where scrambling is operationally inappropriate (e.g. full-text search indexes). |
 | **Encrypted** | | Field-level encryption. Future feature (reserved). The customer holds the decryption key (sovereignty principle). |
+| **Quancrypted** | | Field-level encryption with **post-quantum** key protection. Future feature (reserved). Same field cipher as Encrypted, but the key-management/envelope layer uses post-quantum cryptography (ML-KEM key encapsulation, per NIST FIPS 203) so protection survives a cryptographically-relevant quantum computer. Customer still holds the key (sovereignty principle). The quantum-safe end-state of the data-at-rest posture. |
 
 **Default posture: Scrambled.** All string fields arrive Scrambled unless explicitly resolved otherwise by a policy chain. The resolution cascade is: Workload → Tenant → Product → Default (Scrambled).
+
+Encrypted and Quancrypted are **reserved future modes** (declared in the enum + persistence seam; cryptographic implementations not yet shipped). Quancrypted is the data-at-rest counterpart of the substrate post-quantum posture — see [`UniCORE.GVB` POST-QUANTUM.md](https://github.com/bryanunitek/UniCORE.GVB/blob/main/POST-QUANTUM.md).
 
 This is a substrate-level concern inherited from [UniCORE.GVB](https://github.com/bryanunitek/UniCORE.GVB). Both the on-prem UniCORE and the SaaS UniSaaS.UniCORE deployments enforce the same posture. The deployment shape does not change the data-mode architecture.
 
