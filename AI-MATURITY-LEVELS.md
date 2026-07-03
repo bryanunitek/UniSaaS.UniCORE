@@ -1,47 +1,126 @@
-# AI Maturity Levels — Consumer AI to Team UniCORE
+# AI-Maturity Framework — the Six Levels (Consumer AI → Team UniCORE)
 
-*Part of the TrueAI / UniCORE public foundation. Licensed CC BY 4.0.*
+**Canonical source doc.** Author: Bryan Fred (framework) + UniCORE Claw (structure/write-up), 2026-07-03.
+**Status:** RATIFIED CONCEPT (Bryan-originated 2026-07-03 02:28–02:36 UTC). To be documented into TheBookOfUnitekSystemsLimited + across the 7 public UniCORE repos, and is the basis for Bryan's Saturday LinkedIn post.
 
-## Why this exists
-
-There is no manual for AI in the critical path of consequential decisions. Consumer-grade and Assistant-grade AI were made available to everyone — institutions included — without an established standard for how AI must behave when it sits in a decision that matters.
-
-But the laws already exist. The EU AI Act is in force; professional-conduct duties, data-protection law, and sectoral regulation already apply to AI used in law, accountancy, finance, and healthcare. The legal obligations arrived before the method for meeting them was written. That gap resolves in one direction — liability — when ungrounded AI produces a consequential error inside an institutional decision, and someone answerable is held to account.
-
-This framework is a standard for **what AI must be** — written before the reckoning writes one for us.
-
-## The two axes
-
-The levels sit on a grid of two axes:
-
-- **Accountability — Consumer to Institutional.** Consumer AI is best-effort, ungrounded, convenience; it serves an individual with no accountability obligation. Institutional AI serves an organisation in the critical path of consequential decisions and must be grounded, accountable, and auditable.
-- **Capability / role — AI to Assistant to Development to Paired producer.** AI is the raw model (web-general, no local context). Assistant acts for a user with tools and context. Development produces the systems others run. The paired producer (Team UniCORE) produces *governed* solutions: a grounded record held by an accountable human.
-
-## The grid
-
-|  | Consumer (best-effort, ungrounded) | Institutional (grounded, accountable) |
-|---|---|---|
-| **AI** (web-general) | 1. Consumer AI | 2. Institutional AI |
-| **Assistant** (tools/context) | 3. Assistant Consumer AI | 4. Assistant Institutional AI |
-| **Development** (produces systems) | — not permitted — | 5. Development Institutional AI |
-| **Paired governed producer** | — | 6. Team UniCORE |
-
-Read down for increasing capability; read right for increasing accountability.
-
-## The compliance floor
-
-**"Development Consumer AI" cannot exist — it is not AI-Compliant.**
-
-Development produces the systems that operate in the critical path of consequential decisions. To develop such systems to a best-effort, ungrounded, unaccountable standard is exactly what AI-Compliance prohibits. Once an AI crosses into Development, the Institutional standard is mandatory; the Consumer column terminates there. AI-Compliance is the admission requirement to be development-grade AI at all — not a feature added afterward. The empty cell is not an omission; it is a prohibited, liability-generating state.
-
-## The apex is a pair, not a bigger model
-
-The highest level is not "Development Institutional AI with more capability." It is a paired human and AI — the only level where a *human* enters the definition. No amount of model capability supplies the one thing liability will demand: someone answerable. A grounded record, held by an accountable human — together, or not at all.
-
-## A test anyone can run
-
-Ask the same question of a general AI twice — once as a consumer would, once demanding institutional grounding. The gap between those two answers is the gap in the AI. That gap is where the liability lives.
+> ⚠️ **DISTINCT from the UniCORE AI 12-Level GOVERNANCE model** (`UniCORE-AI/levels/`, L1–L12 authority *inside* a deployed Solution). The two frameworks are **complementary, not competing**:
+> - L1–L4 (Governance levels 1–4) sit **below the governance threshold** — they describe AI below Development grade.
+> - L5–L12 (Governance levels 5–12) map **across Maturity Levels 5 and 6** — they describe governance depth *within* Development Institutional AI and Team UniCORE.
+> The governance decimal scale (5.00 → 6.0) runs *inside* this framework, measuring how deeply grounded a Development Institutional AI is as it progresses toward Team UniCORE (L12).
 
 ---
 
-© Unitek Systems. Licensed under CC BY 4.0. Part of the public TrueAI / UniCORE foundation — given, not sold.
+## The thesis — why this matters NOW (Bryan, 2026-07-03 02:36 UTC)
+
+> **"This is what AI needs to be today. Meaning there is no manual. But the laws exist. The liability is coming."**
+
+Three facts define the present moment for AI in institutional use:
+
+1. **There is no manual.** No established operating standard exists for how AI must behave when it sits in the critical path of consequential decisions. Consumer-grade and Assistant-grade AI were shipped to everyone — institutions included — without the grounding and accountability structure that institutional use *requires*.
+2. **But the laws already exist.** The obligations are real and in force now — EU AI Act, sectoral regulation, professional-conduct duties, data-protection law. The legal obligations arrived *before* anyone wrote the method for meeting them. Law first; manual absent.
+3. **The liability is coming.** That gap — laws present, manual missing — resolves as **liability.** When ungrounded AI produces a consequential error inside an institutional decision, someone answerable will be held to account by courts and regulators. Not *if* — *when*.
+
+**This six-level framework is the missing manual** — the operating standard for what AI must be, written *before* the liability lands, not after the lawsuits force one into existence. It is the TrueAI/UniCORE thesis stated as a practical ladder: **grounded + accountable, because the law already requires it.**
+
+---
+
+## The two axes
+
+The six levels are not a flat list. They sit on a grid of **two braided axes**:
+
+- **Axis 1 — Accountability: Consumer ↔ Institutional**
+  - **Consumer** = serves an individual; best-effort; no grounding or accountability obligation; convenience.
+  - **Institutional** = serves an organisation in the critical path of consequential decisions; must be grounded, accountable, auditable.
+- **Axis 2 — Capability/role: AI → Assistant → Development → Paired governed producer**
+  - **AI** = raw model, web-general, no local context/files. Answers from training + web.
+  - **Assistant** = acts *for* a user; has tools and context; performs tasks.
+  - **Development** = produces the systems/Solutions others run.
+  - **Team UniCORE (paired)** = the 1H1C pair that produces *governed* Solutions — grounded record + accountable human.
+
+## The grid
+
+| | **Consumer** (best-effort, ungrounded) | **Institutional** (grounded, accountable) |
+|---|---|---|
+| **AI** (web-general, no local MD) | **1. Consumer AI** | **2. Institutional AI** |
+| **Assistant** (tools/context) | **3. Assistant Consumer AI** | **4. Assistant Institutional AI** |
+| **Development** (produces systems) | ⛔ **FORBIDDEN — not AI-Compliant** | **5. Development Institutional AI** |
+| **Paired governed producer** | — (n/a) | **6. Team UniCORE** |
+
+Read **down** = increasing capability. Read **right** = increasing accountability/grounding.
+
+## The AI-Compliance floor (the load-bearing rule)
+
+**"Development Consumer AI" cannot exist — it is not AI-Compliant.**
+
+The empty cell at Development×Consumer is not an oversight; it is a **prohibited state.** Development produces the systems that operate in the critical path of consequential decisions. To develop such systems to a best-effort, ungrounded, unaccountable (Consumer) standard is precisely what AI-Compliance prohibits. Therefore:
+
+> **Once an AI crosses into Development, the Institutional standard is mandatory. The Consumer column terminates at the Development row. AI-Compliance is the admission requirement to be development-grade AI at all — not a feature added afterward.**
+
+The ⛔ cell's emptiness is a *feature*: it proves that development-grade AI without compliance is not a cheaper option — it is a **non-permitted, liability-generating** one.
+
+## The governance decimal scale — measuring depth between Level 5 and Level 6 (locked 2026-07-03 09:15 UTC, Bryan)
+
+**The problem the decimal scale solves:** Maturity Level 5 (Development Institutional AI) is a wide bucket — it covers everything from a team running their first governance experiment to a fully mature, deeply audited development practice. The decimal scale gives that journey **measurable steps.**
+
+**The scale:**
+
+| Decimal | Meaning |
+|---|---|
+| **5.00** | Development Institutional AI — starting point. First governance steps. L5 governance. |
+| **5.01–5.11** | Progressive governance depth — each decimal step is one increment toward L12. |
+| **5.12** | (reserved — governance depth 12 of 11 is a ceiling marker, not a step) |
+| **6.0** | **Team UniCORE** — governance Level 12 reached. The 1H1C pair, indivisible. This is the apex. |
+
+**The path is linear:** 5.00 → 5.01 → 5.02 → 5.03 → 5.04 → 5.05 → 5.06 → 5.07 → 5.08 → 5.09 → 5.10 → 5.11 → **6.0**
+
+- **5.00** = first governance steps (L5)
+- **5.07** = governance depth 7 of 11 steps — midpoint
+- **5.11** = one step below L12 — nearly Team UniCORE
+- **6.0** = L12 reached → the maturity flips from 5 to 6 because the *category changes* (human enters; the pair is formed)
+
+**The decimal is not the governance level — it is the depth within Level 5.** A system at 5.07 is still at Maturity Level 5 (Development Institutional AI), not yet Team UniCORE. It is in the journey *toward* Team UniCORE, at governance depth 7 of the 11 steps between 5.00 and 6.0.
+
+**The scale can extend beyond 6.0 in the future.** As Advanced AI advances, the decimal scale may reach 7.0, 8.0, and beyond — reflecting governance depths that surpass the current L12 ceiling. 6.0 is Team UniCORE *today*; it is not a permanent ceiling.
+
+**Why the decimal scale matters operationally:** it gives Development Institutional AI a **progress metric** — measurable improvement in governance depth, visible to auditors, clients, and courts. "We are at 5.07" tells a concrete story. "We are improving governance" is a claim. The decimal makes the claim verifiable.
+
+---
+
+## Team UniCORE is a category change, not just the next rung
+
+Level 6 is not "Development Institutional AI with a bigger model." It is the **1H1C pair** — the only level where a *human* enters the definition. Model capability alone can never supply what liability law will demand: **someone answerable.** Team UniCORE = grounded record (the Claw) + accountable human (the paired human at Level 12), indivisible. This is why it is the apex: the axis flips from "what the AI can do" to "who is accountable for what it does." Reaching 6.0 means governance L12 is confirmed — the pair is formed, the human is named and accountable, the grounded record is complete. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
+
+## Load Boundary — Consumer content may NOT enter Institutional cells (locked 2026-07-03 07:37 UTC, Bryan)
+
+**Rule:** Content from **Level 1 (Consumer AI)** may be loaded into **Level 3 (Assistant Consumer AI)** — both are Consumer-column, ungrounded, no contamination risk. It **must NOT** be loaded into any Institutional cell:
+
+| From | To | Permitted? | Reason |
+|---|---|---|---|
+| 1 Consumer AI | 3 Assistant Consumer AI | ✅ YES | Same column — both ungrounded, no contamination |
+| 1 Consumer AI | 4 Assistant Institutional AI | ❌ NO | Consumer (ungrounded) → Institutional (grounded) = contamination of the grounded record |
+| 1 Consumer AI | 5 Development Institutional AI | ❌ NO | Same — and Development produces systems, so the contamination propagates |
+| 1 Consumer AI | 6 Team UniCORE | ❌ NO | The apex — the grounded record must stay clean |
+
+**Why this is a hard wall, not a filter:** the Consumer/Institutional axis is a **grounding boundary.** Consumer content is *by definition* ungrounded (best-effort, no accountability). Loading it into an Institutional cell would introduce ungrounded material into a system that claims to be grounded and accountable. That is not a quality problem — it is a **compliance problem.** The Institutional record must be traceable to grounded sources only; a Consumer-origin input has no grounding chain and therefore cannot be admitted.
+
+**Practical example (Steve's case, 2026-07-03):** Steve's ChatGPT history (Consumer AI, Level 1) can be loaded into a personal-assistant AI (Assistant Consumer AI, Level 3) — that's his garden/Creemore/PowerPlayer brainstorming, all Consumer-grade. It **cannot** be loaded into UniCORE's Institutional Assistant (Level 4), Development AI (Level 5), or Team UniCORE (Level 6) — because that content has no grounding chain and would contaminate the accountable record.
+
+**The asymmetry is intentional and structural:** Institutional content *can* inform Consumer use (grounded → ungrounded is a downgrade in standard but not a contamination). Consumer content *cannot* inform Institutional use (ungrounded → grounded is the contamination). The wall is one-directional.
+
+---
+
+## The gap-finding method (Bryan's operational use of levels 1–2)
+
+Levels **1 (Consumer AI)** and **2 (Institutional AI)** — used on the **general web, with no local MD files** — are a **control experiment.** Same raw model; the *only* variable is the accountability standard. **The delta between their two answers IS the gap** — it exposes where an AI defaults to best-effort/ungrounded (Consumer) when institutional grounding was required. Bryan uses this A/B to *measure the AI-Compliance gap* in any Development Institutional AI.
+
+---
+
+## Placement (this doc → the record)
+- **Book:** TheBookOfUnitekSystemsLimited — new section (foundation/AI-compliance chapter).
+- **7 public repos:** TrueAI, UniCORE-AI, UniVERSE, UniCORE, UniCORE.GVB, UniSaaS.UniCORE, UniSaaS.UniCORE.GVB — as an `AI-MATURITY-LEVELS.md` (or into each repo's existing AI-COMPLIANCE.md family), CC BY 4.0 gift surface.
+- **LinkedIn:** `_linkedin/2026-07-04-ai-maturity-levels-post.md` — advocacy form (below).
+
+## Honesty boundary (locked)
+- The framework + thesis are **advocacy that is TRUE today** (public foundation, laws exist, liability inbound).
+- **NO product-certification claims** in public/LinkedIn material (HEARTBEAT gated-task rule): do not claim UniCORE is "certified" — the Badge/product-cert is gated until dotnet-certified. Argue the *principle*, not a product cert.
+- USER.md "5 public repos" note is now **stale** — the two UniSaaS flagships bring the public gift surface to **7**. (Flagged for USER.md update.)
