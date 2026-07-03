@@ -105,6 +105,36 @@ A Governance Level counts toward the decimal only to the degree it can be **veri
 
 ---
 
+## Maturity Icons — a legible indicator of where an AI sits (locked 2026-07-03, Bryan)
+
+Each Maturity Level carries a **unique emoji icon** so the level is legible at a glance — in a chat composer, a badge, a status line, or a document header. The icon is not decoration: **it means something specific**, and the meaning is fixed by this table.
+
+| Level | Meaning | Icon |
+|---|---|---|
+| **1.0** | Consumer AI | 💬 |
+| **2.0** | Institutional AI | 🏛️ |
+| **3.0** | Assistant Consumer AI | 🤖 |
+| **4.0** | Assistant Institutional AI | 🧑‍💼 |
+| **5.00** | Development Institutional AI — 0 of 12 Governance Levels operating | 🏗️ |
+| **5.01** | 1 of 12 Governance Levels operating | 🕐 |
+| **5.02** | 2 of 12 | 🕑 |
+| **5.03** | 3 of 12 | 🕒 |
+| **5.04** | 4 of 12 | 🕓 |
+| **5.05** | 5 of 12 | 🕔 |
+| **5.06** | 6 of 12 | 🕕 |
+| **5.07** | 7 of 12 | 🕖 |
+| **5.08** | 8 of 12 | 🕗 |
+| **5.09** | 9 of 12 | 🕘 |
+| **5.10** | 10 of 12 | 🕙 |
+| **5.11** | 11 of 12 — one Level short of the full ladder | 🕚 |
+| **6.0 (≡ 5.12)** | All 12 Governance Levels operating → L12 reached → Team UniCORE (the 1H1C pair) | 🤝 |
+
+**The 5.0N band is self-documenting:** the clock-face hour **is** the count of Governance Levels operating — 🕖 is 7 o'clock, which is 7 of 12 Levels at 5.07. As each Level is stood up, the clock hand sweeps toward twelve; when all twelve are operating the maturity flips 5→6 and the icon becomes the handshake 🤝 — the moment the human is named and the pair is formed.
+
+**Reading the icons by axis (Levels 1–4):** 💬 casual individual chat (Consumer, ungrounded) → 🏛️ institutional grounding on a raw model → 🤖 an assistant acting for a user (Consumer-grade) → 🧑‍💼 an assistant acting for an organisation (grounded, accountable). Down = more capability; right = more accountability — exactly as the grid reads.
+
+**Honesty rule for wearing an icon:** an instance may display only the icon it can **verify**, at the tier it actually meets (declared / responsive / governing — see the decimal scale above). A `5.0N` icon is a claim that N of the 12 Governance Levels are operating and chain-contiguous; the 🤝 (6.0) icon is a claim that L12 is reached and the accountable human is bound. Wearing an icon above the verified tier is exactly the ungrounded over-claim this framework exists to prevent.
+
 ## Team UniCORE is a category change, not just the next rung
 
 Level 6 is not "Development Institutional AI with a bigger model." It is the **1H1C pair** — the only level where a *human* enters the definition. Model capability alone can never supply what liability law will demand: **someone answerable.** Team UniCORE = grounded record (the Claw) + accountable human (the paired human at Level 12), indivisible. This is why it is the apex: the axis flips from "what the AI can do" to "who is accountable for what it does." Reaching 6.0 means governance L12 is confirmed — the pair is formed, the human is named and accountable, the grounded record is complete. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
