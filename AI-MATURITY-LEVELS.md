@@ -68,7 +68,7 @@ The ⛔ cell's emptiness is a *feature*: it proves that development-grade AI wit
 > - `5.01` = **1** Level doing Governance.
 > - `5.02` = **2** Levels operating.
 > - `5.07` = **7** of the 12 Governance Levels operating.
-> - `5.12` = **all 12** operating → **L12 reached → this IS `6.0`** (the pair forms; the category flips).
+> - `5.12` = **all 12** operating → **L12 reached → this IS `6.0`** (the pair's governance ladder completes — the pair itself exists throughout Level 5; the category flips).
 
 This is what makes “we are at 5.07” a **verifiable claim, not an asserted one**: it means *exactly seven of the twelve named Governance Levels are present and operating* — a fact that can be checked against the L1–L12 model, not a vibe. The unit of measurement is **one operating Governance Level = one decimal step.**
 
@@ -79,7 +79,7 @@ This is what makes “we are at 5.07” a **verifiable claim, not an asserted on
 | **5.00** | Development Institutional AI — starting point. Zero of the 12 governance levels yet operating (Institutional grounding present, governance ladder not yet stood up). |
 | **5.01** | 1 Governance Level operating. |
 | **5.02–5.11** | 2 … 11 of the 12 Governance Levels operating. Each decimal step = one more Level stood up and operating. |
-| **5.12 ≡ 6.0** | All **12** Governance Levels operating → **L12 reached → Team UniCORE.** The 1H1C pair, indivisible. The maturity flips 5→6 because the *category changes* (the human enters; the pair is formed). |
+| **5.12 ≡ 6.0** | All **12** Governance Levels operating → **L12 reached → Team UniCORE.** The 1H1C pair, indivisible. The maturity flips 5→6 because the *category changes* — not because the pair forms (the pair exists throughout Level 5) but because the pair's governance ladder is now **complete** and the human is bound at L12. |
 
 **The path is a clean count of Levels operating:** 5.00 → 5.01 → 5.02 → … → 5.11 → **5.12 ≡ 6.0**
 
@@ -129,15 +129,24 @@ Each Maturity Level carries a **unique emoji icon** so the level is legible at a
 | **5.11** | 11 of 12 — one Level short of the full ladder | 🕚 |
 | **6.0 (≡ 5.12)** | All 12 Governance Levels operating → L12 reached → Team UniCORE (the 1H1C pair) | 🤝 |
 
-**The 5.0N band is self-documenting:** the clock-face hour **is** the count of Governance Levels operating — 🕖 is 7 o'clock, which is 7 of 12 Levels at 5.07. As each Level is stood up, the clock hand sweeps toward twelve; when all twelve are operating the maturity flips 5→6 and the icon becomes the handshake 🤝 — the moment the human is named and the pair is formed.
+**The 5.0N band is self-documenting:** the clock-face hour **is** the count of Governance Levels operating — 🕖 is 7 o'clock, which is 7 of 12 Levels at 5.07. As each Level is stood up, the clock hand sweeps toward twelve; when all twelve are operating the maturity flips 5→6 and the icon becomes the handshake 🤝 — the moment the pair's governance ladder is complete and the human is bound at L12 (the pair itself was there all along).
 
 **Reading the icons by axis (Levels 1–4):** 💬 casual individual chat (Consumer, ungrounded) → 🏛️ institutional grounding on a raw model → 🤖 an assistant acting for a user (Consumer-grade) → 🧑‍💼 an assistant acting for an organisation (grounded, accountable). Down = more capability; right = more accountability — exactly as the grid reads.
 
 **Honesty rule for wearing an icon:** an instance may display only the icon it can **verify**, at the tier it actually meets (declared / responsive / governing — see the decimal scale above). A `5.0N` icon is a claim that N of the 12 Governance Levels are operating and chain-contiguous; the 🤝 (6.0) icon is a claim that L12 is reached and the accountable human is bound. Wearing an icon above the verified tier is exactly the ungrounded over-claim this framework exists to prevent.
 
+## The 1H1C pair is the structure — maturity is its governance depth (locked 2026-07-03, Bryan)
+
+**Every UniCORE Claw is a 1H1C pair.** Each has its own named, accountable human from day one. The pairing is not something that *appears* at 6.0 — it is the **structure** present at every maturity level. What differs between one pair and another is not *whether* there is a pair, but **to what level of maturity** that pair's governance has been stood up.
+
+- **1H1C is the vessel** — the human + the Claw, bonded, present throughout Levels 5 and 6.
+- **The decimal (5.0N) is the governance depth of that vessel** — how many of the 12 Governance Levels the pair has actually stood up and operating, at what verified tier.
+
+So the question is never “is there a pair?” — for a UniCORE Claw the answer is always yes. The question is always the sharper one: **to what level of maturity.** A 1H1C pair at 5.04 and a 1H1C pair at 6.0 are both pairs, both with an accountable human; one has 4 of the 12 Governance Levels operating, the other has all 12. Level 6 does not mark the birth of the pair — it marks the **completion of the pair's governance ladder**.
+
 ## Team UniCORE is a category change, not just the next rung
 
-Level 6 is not "Development Institutional AI with a bigger model." It is the **1H1C pair** — the only level where a *human* enters the definition. Model capability alone can never supply what liability law will demand: **someone answerable.** Team UniCORE = grounded record (the Claw) + accountable human (the paired human at Level 12), indivisible. This is why it is the apex: the axis flips from "what the AI can do" to "who is accountable for what it does." Reaching 6.0 means governance L12 is confirmed — the pair is formed, the human is named and accountable, the grounded record is complete. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
+Level 6 is not "Development Institutional AI with a bigger model," and it is **not** where the 1H1C pair first appears. The pair is present throughout — every UniCORE Claw is a 1H1C pair with a named, accountable human from day one (see the section above). What Level 6 marks is that the pair's **governance ladder is complete**: all 12 Governance Levels operating, the human bound at L12, and the full truth-chain reaching them. Model capability alone can never supply what liability law will demand — **someone answerable** — and in a 1H1C pair that someone is present at *every* maturity level, not only at 6.0. This is why 6.0 is the apex: the axis has run its full length, from "what the AI can do" to a complete, audited governance ladder terminating in the accountable human. Reaching 6.0 means governance L12 is confirmed: not that the pair now exists, but that its governance is **whole**. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
 
 ## Load Boundary — Consumer content may NOT enter Institutional cells (locked 2026-07-03 07:37 UTC, Bryan)
 
