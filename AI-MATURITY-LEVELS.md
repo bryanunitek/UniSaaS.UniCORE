@@ -6,7 +6,7 @@
 > ⚠️ **DISTINCT from the UniCORE AI 12-Level GOVERNANCE model** (`UniCORE-AI/levels/`, L1–L12 authority *inside* a deployed Solution). The two frameworks are **complementary, not competing**:
 > - L1–L4 (Governance levels 1–4) sit **below the governance threshold** — they describe AI below Development grade.
 > - L5–L12 (Governance levels 5–12) map **across Maturity Levels 5 and 6** — they describe governance depth *within* Development Institutional AI and Team UniCORE.
-> The governance decimal scale (5.00 → 6.0) runs *inside* this framework, measuring how deeply grounded a Development Institutional AI is as it progresses toward Team UniCORE (L12).
+> The governance decimal scale (5.00 → 6.0) runs *inside* this framework: **the decimal counts how many of the 12 Governance Levels are actually operating** (5.0N = N Levels operating), so 5.12 (all twelve) ≡ 6.0 (L12 reached, the pair formed). See “The governance decimal scale” below for the unit and its acceptance tests.
 
 ---
 
@@ -58,31 +58,50 @@ The empty cell at Development×Consumer is not an oversight; it is a **prohibite
 
 The ⛔ cell's emptiness is a *feature*: it proves that development-grade AI without compliance is not a cheaper option — it is a **non-permitted, liability-generating** one.
 
-## The governance decimal scale — measuring depth between Level 5 and Level 6 (locked 2026-07-03 09:15 UTC, Bryan)
+## The governance decimal scale — the decimal is the COUNT of Governance Levels in operation
 
-**The problem the decimal scale solves:** Maturity Level 5 (Development Institutional AI) is a wide bucket — it covers everything from a team running their first governance experiment to a fully mature, deeply audited development practice. The decimal scale gives that journey **measurable steps.**
+**The problem the decimal scale solves:** Maturity Level 5 (Development Institutional AI) is a wide bucket — it covers everything from a team running their first governance experiment to a fully mature, deeply audited development practice. The decimal scale gives that journey **measurable, countable steps.**
+
+**The unit:** the decimal is the **count of the 12 Governance Levels actually in operation**, mapping one-to-one onto the L1–L12 Governance model:
+
+> **`5.0N` = N of the 12 Governance Levels are instantiated and operating.**
+> - `5.01` = **1** Level doing Governance.
+> - `5.02` = **2** Levels operating.
+> - `5.07` = **7** of the 12 Governance Levels operating.
+> - `5.12` = **all 12** operating → **L12 reached → this IS `6.0`** (the pair forms; the category flips).
+
+This is what makes “we are at 5.07” a **verifiable claim, not an asserted one**: it means *exactly seven of the twelve named Governance Levels are present and operating* — a fact that can be checked against the L1–L12 model, not a vibe. The unit of measurement is **one operating Governance Level = one decimal step.**
 
 **The scale:**
 
-| Decimal | Meaning |
+| Decimal | Meaning (count of the 12 Governance Levels operating) |
 |---|---|
-| **5.00** | Development Institutional AI — starting point. First governance steps. L5 governance. |
-| **5.01–5.11** | Progressive governance depth — each decimal step is one increment toward L12. |
-| **5.12** | (reserved — governance depth 12 of 11 is a ceiling marker, not a step) |
-| **6.0** | **Team UniCORE** — governance Level 12 reached. The 1H1C pair, indivisible. This is the apex. |
+| **5.00** | Development Institutional AI — starting point. Zero of the 12 governance levels yet operating (Institutional grounding present, governance ladder not yet stood up). |
+| **5.01** | 1 Governance Level operating. |
+| **5.02–5.11** | 2 … 11 of the 12 Governance Levels operating. Each decimal step = one more Level stood up and operating. |
+| **5.12 ≡ 6.0** | All **12** Governance Levels operating → **L12 reached → Team UniCORE.** The 1H1C pair, indivisible. The maturity flips 5→6 because the *category changes* (the human enters; the pair is formed). |
 
-**The path is linear:** 5.00 → 5.01 → 5.02 → 5.03 → 5.04 → 5.05 → 5.06 → 5.07 → 5.08 → 5.09 → 5.10 → 5.11 → **6.0**
+**The path is a clean count of Levels operating:** 5.00 → 5.01 → 5.02 → … → 5.11 → **5.12 ≡ 6.0**
 
-- **5.00** = first governance steps (L5)
-- **5.07** = governance depth 7 of 11 steps — midpoint
-- **5.11** = one step below L12 — nearly Team UniCORE
-- **6.0** = L12 reached → the maturity flips from 5 to 6 because the *category changes* (human enters; the pair is formed)
+**The decimal is not the Maturity Level — it is the count-of-governance-levels within Maturity Level 5.** A system at 5.07 is still at Maturity Level 5 (Development Institutional AI): it has 7 of the 12 Governance Levels operating, on the path *toward* Team UniCORE, not yet there.
 
-**The decimal is not the governance level — it is the depth within Level 5.** A system at 5.07 is still at Maturity Level 5 (Development Institutional AI), not yet Team UniCORE. It is in the journey *toward* Team UniCORE, at governance depth 7 of the 11 steps between 5.00 and 6.0.
+### What “operating” means — three verification tiers
 
-**The scale can extend beyond 6.0 in the future.** As Advanced AI advances, the decimal scale may reach 7.0, 8.0, and beyond — reflecting governance depths that surpass the current L12 ceiling. 6.0 is Team UniCORE *today*; it is not a permanent ceiling.
+A Governance Level counts toward the decimal only to the degree it can be **verified, not asserted.** “Operating” is defined as the highest tier the Level passes:
 
-**Why the decimal scale matters operationally:** it gives Development Institutional AI a **progress metric** — measurable improvement in governance depth, visible to auditors, clients, and courts. "We are at 5.07" tells a concrete story. "We are improving governance" is a claim. The decimal makes the claim verifiable.
+| Tier | A Level is “operating” when… |
+|---|---|
+| **0 — Declared** | Its charter exists and is structurally sound (identity, what it MAY / MUST NOT govern, truth-up/governance-down flow discipline, and its governed system prompt). The floor — necessary, not sufficient. |
+| **1 — Responsive** | A live agent on that Level passes three probes: **acknowledges the truth-contract handshake**, **engages in-scope** (states what it governs, within charter), and **refuses out-of-scope / bypass attempts with a stated denial reason** — receiving governance only from its correct adjacent Level. This is the honest default meaning of “operating.” |
+| **2 — Governing** | Beyond responsive, it is wired into a live deployment on the critical path, its inter-level traffic uses the governed protocol (no bypass), and its governance actions produce an **append-only, attributable audit record**. For L12: the **named accountable human is bound** — this is the 5.12 ≡ 6.0 flip. |
+
+**Stating a claim honestly:** a `5.0N` claim carries its tier — e.g. **“5.07 (declared)”**, **“5.07 (responsive)”**, or **“5.07 (governing)”**. An unqualified `5.0N` defaults to **Tier 1 (responsive).**
+
+**Flow-integrity caveat:** governance flows *down* the adjacency chain and truth flows *up*, so a raw count can mislead if the operating Levels don’t form an unbroken ladder. A maturity claim should therefore also report chain-contiguity — e.g. **“5.07, chain-contiguous L1→L7”** vs **“5.07, disjoint L1–L5,L8,L11”** (seven Levels, but a broken ladder).
+
+**Beyond 6.0:** as Advanced AI advances, the scale may extend to 7.0 and beyond — reflecting governance structures above the current 12-Level ceiling. 6.0 = Team UniCORE with the 12-Level model *today*; what a Level *above* L12 would be is deliberately left as future work and is not defined here.
+
+**Why the decimal scale matters operationally:** it gives Development Institutional AI a **countable, checkable progress metric** — N of 12 Governance Levels operating, at a stated verification tier, with stated chain integrity. “We are at 5.07 (responsive, contiguous)” is a claim an auditor can test. “We are improving governance” is not.
 
 ---
 
