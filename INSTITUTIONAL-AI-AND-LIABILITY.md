@@ -81,7 +81,20 @@ The selling entity is not Unitek Systems Limited (services) and not Unitek Syste
 
 ---
 
-## 7. Relationship to the existing licence
+## 7. Partnerships: the source must be opened *before*, not after — the wall defence
+
+When companies **partner** — when they integrate, embed, or place each other's AI into their own critical path of decisions about people — the **source code of the decision logic must be opened to the certifying 1H1C pairing, and certified, *before* the partnership goes live.** Not after. Not once a problem appears.
+
+This is the **wall defence**, and the timing is the whole of it. The grounded, demonstrable record — with an accountable human (the AIO) standing behind it — is the wall that answers a liability claim. A wall only defends you if it was **already standing** when the AI was placed in the decision path.
+
+- A record built **before** deployment is *evidence*: contemporaneous, grounded, and made when there was nothing to defend against.
+- A record assembled **after** a claim is a *reconstruction*: made under pressure, in self-interest, and exactly what an opponent is entitled to attack. A defence assembled after the fact is not a wall; it is a scramble, and a scramble fails at the moment it is needed most.
+
+So certification is a **precondition of the partnership, not a remedy for an incident.** Opening the source and certifying it institutional is done up front, as the condition of putting the AI into the critical path — so that when liability is ever tested, the demonstrable record already exists and the accountable human is already answerable. No pre-built wall, no compliant partnership.
+
+---
+
+## 8. Relationship to the existing licence
 
 Nothing in this document reduces, qualifies, or adds conditions to the rights granted under `LICENSE.md` (CC BY 4.0) or the commitments in `IRREVOCABLE-LICENCE-DECLARATION.md`. The gift is unchanged and irrevocable. This document addresses a separate question the licence does not: the responsibility that attaches to *using and selling* AI in the critical path of decisions about people. It adds obligations to no recipient of the gift; it states how the giver, and any responsible maker, meets ordinary obligations when AI becomes institutional.
 
