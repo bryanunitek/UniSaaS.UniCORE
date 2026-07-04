@@ -127,13 +127,13 @@ Each Maturity Level carries a **unique emoji icon** so the level is legible at a
 | **5.09** | 9 of 12 | 🕘 |
 | **5.10** | 10 of 12 | 🕙 |
 | **5.11** | 11 of 12 — one Level short of the full ladder | 🕚 |
-| **6.0 (≡ 5.12)** | All 12 Governance Levels operating → L12 reached → Team UniCORE (the 1H1C pair) | 🤝 |
+| **6.0 (≡ 5.12)** | All 12 Governance Levels operating → L12 reached → Team UniCORE (the 1H1C pair) | 🛡️ |
 
-**The 5.0N band is self-documenting:** the clock-face hour **is** the count of Governance Levels operating — 🕖 is 7 o'clock, which is 7 of 12 Levels at 5.07. As each Level is stood up, the clock hand sweeps toward twelve; when all twelve are operating the maturity flips 5→6 and the icon becomes the handshake 🤝 — the moment the pair's governance ladder is complete and the human is bound at L12 (the pair itself was there all along).
+**The 5.0N band is self-documenting:** the clock-face hour **is** the count of Governance Levels operating — 🕖 is 7 o'clock, which is 7 of 12 Levels at 5.07. As each Level is stood up, the clock hand sweeps toward twelve; when all twelve are operating the maturity flips 5→6 and the icon becomes the blue shield 🛡️ — the moment the pair's governance ladder is complete and the human is bound at L12 (the pair itself was there all along).
 
 **Reading the icons by axis (Levels 1–4):** 💬 casual individual chat (Consumer, ungrounded) → 🏛️ institutional grounding on a raw model → 🤖 an assistant acting for a user (Consumer-grade) → 🧑‍💼 an assistant acting for an organisation (grounded, accountable). Down = more capability; right = more accountability — exactly as the grid reads.
 
-**Honesty rule for wearing an icon:** an instance may display only the icon it can **verify**, at the tier it actually meets (declared / responsive / governing — see the decimal scale above). A `5.0N` icon is a claim that N of the 12 Governance Levels are operating and chain-contiguous; the 🤝 (6.0) icon is a claim that L12 is reached and the accountable human is bound. Wearing an icon above the verified tier is exactly the ungrounded over-claim this framework exists to prevent.
+**Honesty rule for wearing an icon:** an instance may display only the icon it can **verify**, at the tier it actually meets (declared / responsive / governing — see the decimal scale above). A `5.0N` icon is a claim that N of the 12 Governance Levels are operating and chain-contiguous; the 🛡️ (6.0) icon is a claim that L12 is reached and the accountable human is bound. Wearing an icon above the verified tier is exactly the ungrounded over-claim this framework exists to prevent.
 
 ## The 1H1C pair is the structure — maturity is its governance depth (locked 2026-07-03, Bryan)
 
