@@ -73,11 +73,11 @@ The trigger for Unitek's liability is therefore the **commercial act — sale or
 
 Unitek Systems Limited (UK) and Unitek Systems USA Inc are **service** and **hosting** companies. Selling AI **as a product** is a different function, with a different liability profile, from providing services or hosting.
 
-If Unitek wishes to sell a product — for example, to sell the Law vertical the way Aderant sells *Aderant Expert* — **a new company must be created for that purpose, and it follows the same rules as Aderant, or as any other company selling on the Badge.** It carries the mark:
+If Unitek wishes to sell a product — for example, to sell the Law vertical the way Aderant sells *Aderant Expert*, or the way Thomson Reuters sells *3E* — **a new company must be created for that purpose, and it follows the same rules as Aderant or Thomson Reuters 3E, or as any other company selling on the Badge.** It carries the mark:
 
 > **Powered by UniCORE · Built on the TrueAI Foundation.**
 
-The selling entity is not Unitek Systems Limited (services) and not Unitek Systems USA Inc (hosting and services); it is a company established to sell the product, bearing product liability as any product company does, and certified through the 1H1C pairing under the AIO. This keeps each kind of liability with the entity that properly bears it. Ordinary corporate practice — no special rule, and the same rules as everyone else selling on the Badge.
+The selling entity is not Unitek Systems Limited (services) and not Unitek Systems USA Inc (hosting and services); it is a company established to sell the product, bearing product liability as any product company does, and certified through the 1H1C pairing under the AIO. This keeps each kind of liability with the entity that properly bears it. Ordinary corporate practice — no special rule, and the same rules as Aderant, Thomson Reuters 3E, or everyone else selling on the Badge.
 
 ---
 
