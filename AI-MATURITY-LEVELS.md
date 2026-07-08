@@ -109,10 +109,14 @@ A Governance Level counts toward the decimal only to the degree it can be **veri
 
 The correspondence is exact: **7.0 is to 8.0 as 5.0 is to 6.0.** 7.x is the Development kind of the second octave; 8.x is the Badge-Certified/paired kind. The only difference is the register: the second-octave clock runs **13:00 → 24:00** (13 to 24 governance levels operating) rather than 1 → 12.
 
+Read the bands in order, 5 → 6 → 7 → 8:
+
+- **5.00 → 5.12 (Development, first octave):** the clock counts 0 → 12 governance levels operating. `5.00` = starting point, `5.12` = all twelve (≡ 6.0).
+- **6.0 (Badge Certified, first-octave gate):** the bare-`.0` certification gate that flips 5.x → 6.x. The gate is always a bare `.0` sitting between the Development band and the Certified band.
+- **6.01 → 6.12 (Commercial-use certified, first octave):** after the 6.0 Badge, the certified band counts 1 → 12 governance levels operating **within commercial-use certification** — the same clock mechanism as 5.01 → 5.12, one register up in *kind* (certified, not development).
 - **7.13 → 7.24 (Development, second octave):** the clock begins at **13** because it is counting the *second* twelve — `7.13` = 13 of 24 governance levels operating, `7.24` = all 24. There is no `7.00–7.12`; the second octave begins at 13, above the first octave's full ladder.
-- **8.0 (Badge Certified):** the bare-`.0` certification gate that flips 7.x → 8.x, exactly as **6.0** flips 5.x → 6.x. The gate is always a bare `.0` sitting between the Development band and the Certified band, whatever the octave.
-- **6.01 → 6.12 (Commercial-use certified, first octave):** after the 6.0 Badge, the first-octave certified band counts 1 → 12 governance levels operating **within commercial-use certification** — the same clock mechanism as 5.01 → 5.12, one register up in *kind* (certified, not development).
-- **8.13 → 8.24 (above commercial, second octave):** the second-octave certified band — a band **above commercial use**, whose domain is **deliberately not yet defined** (indicative examples only: space, Moon, Mars). It is named structurally and reserved; its meaning is left as future work and is **not** asserted here.
+- **8.0 (Badge Certified, second-octave gate):** the bare-`.0` gate that flips 7.x → 8.x, exactly as **6.0** flips 5.x → 6.x.
+- **8.13 → 8.24 (above commercial, second octave):** the certified band of the second octave — a band **above commercial use**, whose domain is **deliberately not yet defined** (indicative examples only: space, Moon, Mars). It is named structurally and reserved; its meaning is left as future work and is **not** asserted here.
 
 **Clock colours (second octave):** the 13→24 clock requires its own distinct colour set, **to be assigned by Bryan** (marked open; not invented here). First-octave colours already assigned (5.x / 6.x) are unchanged.
 
