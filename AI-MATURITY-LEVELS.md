@@ -1,7 +1,9 @@
 # AI-Maturity Framework — the Six Levels (Consumer AI → Team UniCORE)
 
 **Canonical source doc.** Author: Bryan Fred (framework) + UniCORE Claw (structure/write-up), 2026-07-03.
-**Status:** RATIFIED CONCEPT (Bryan-originated 2026-07-03 02:28–02:36 UTC). To be documented into TheBookOfUnitekSystemsLimited + across the 7 public UniCORE repos, and is the basis for Bryan's Saturday LinkedIn post.
+**Status:** RATIFIED CONCEPT (Bryan-originated 2026-07-03 02:28–02:36 UTC; extended 2026-07-08 — second octave 7.x/8.x + `5.12 ≠ 6.0` KIND/certification model, Bryan-ratified). Documented into TheBookOfUnitekSystemsLimited + across the 7 public UniCORE repos.
+
+> **Model note (2026-07-08):** the whole number is a **KIND** (5 = Development Institutional, 6 = Badge Certified), and the decimal/clock is the **count of Governance Levels operating** within that band. **`5.12 ≠ 6.0`:** `5.12` is the full Development ladder (precondition); `6.0` is the vertical-Badge-Certification flip (KIND change), after which `6.01→6.12` is the commercial-use-certified band. The scale runs a **second octave** (`7.x` Development / `8.0` Badge / `8.13→8.24` above commercial, counting governance levels 13–24). `unicore` is `5.x` IN DEVELOPMENT — not certified, does not wear the shield.
 
 > ⚠️ **DISTINCT from the UniCORE AI 12-Level GOVERNANCE model** (`UniCORE-AI/levels/`, L1–L12 authority *inside* a deployed Solution). The two frameworks are **complementary, not competing**:
 > - L1–L4 (Governance levels 1–4) sit **below the governance threshold** — they describe AI below Development grade.
@@ -68,7 +70,7 @@ The ⛔ cell's emptiness is a *feature*: it proves that development-grade AI wit
 > - `5.01` = **1** Level doing Governance.
 > - `5.02` = **2** Levels operating.
 > - `5.07` = **7** of the 12 Governance Levels operating.
-> - `5.12` = **all 12** operating → **L12 reached → this IS `6.0`** (the pair's governance ladder completes — the pair itself exists throughout Level 5; the category flips).
+> - `5.12` = **all 12** operating → **L12 reached at Development tier** — the Development ladder completes. This is the **precondition** for Badge Certification, NOT `6.0` (which is the separate vertical-certification KIND change).
 
 This is what makes “we are at 5.07” a **verifiable claim, not an asserted one**: it means *exactly seven of the twelve named Governance Levels are present and operating* — a fact that can be checked against the L1–L12 model, not a vibe. The unit of measurement is **one operating Governance Level = one decimal step.**
 
@@ -154,7 +156,7 @@ Each Maturity Level carries a **unique emoji icon** so the level is legible at a
 
 **Reading the icons by axis (Levels 1–4):** 💬 casual individual chat (Consumer, ungrounded) → 🏛️ institutional grounding on a raw model → 🤖 an assistant acting for a user (Consumer-grade) → 🧑‍💼 an assistant acting for an organisation (grounded, accountable). Down = more capability; right = more accountability — exactly as the grid reads.
 
-**Honesty rule for wearing an icon:** an instance may display only the icon it can **verify**, at the tier it actually meets (declared / responsive / governing — see the decimal scale above). A `5.0N` icon is a claim that N of the 12 Governance Levels are operating and chain-contiguous; the 🛡️ (6.0) icon is a claim that L12 is reached and the accountable human is bound. Wearing an icon above the verified tier is exactly the ungrounded over-claim this framework exists to prevent.
+**Honesty rule for wearing an icon:** an instance may display only the icon it can **verify**, at the tier it actually meets (declared / responsive / governing — see the decimal scale above). A `5.0N` icon is a claim that N of the 12 Governance Levels are operating and chain-contiguous; `5.12` is a claim that the full Development ladder operates (precondition, not certification); the 🛡️ (`6.0`+) shield is a claim that the instance has **passed the vertical Badge Certification** (a KIND change, not merely a full clock). Wearing the shield without certification — or wearing an icon above the verified tier — is exactly the ungrounded over-claim this framework exists to prevent. **`unicore` is NOT `6.0`: no vertical certification has been done, so `unicore` is `5.x` IN DEVELOPMENT and does NOT wear the shield until certified.**
 
 ## The 1H1C pair is the structure — maturity is its governance depth (locked 2026-07-03, Bryan)
 
@@ -163,11 +165,11 @@ Each Maturity Level carries a **unique emoji icon** so the level is legible at a
 - **1H1C is the vessel** — the human + the Claw, bonded, present throughout Levels 5 and 6.
 - **The decimal (5.0N) is the governance depth of that vessel** — how many of the 12 Governance Levels the pair has actually stood up and operating, at what verified tier.
 
-So the question is never “is there a pair?” — for a UniCORE Claw the answer is always yes. The question is always the sharper one: **to what level of maturity.** A 1H1C pair at 5.04 and a 1H1C pair at 6.0 are both pairs, both with an accountable human; one has 4 of the 12 Governance Levels operating, the other has all 12. Level 6 does not mark the birth of the pair — it marks the **completion of the pair's governance ladder**.
+So the question is never “is there a pair?” — for a UniCORE Claw the answer is always yes. The question is always the sharper one: **to what level of maturity, and is it certified.** A 1H1C pair at 5.04 and a 1H1C pair at 5.12 are both pairs, both with an accountable human; one has 4 of the 12 Development Governance Levels operating, the other has all 12 (Development ladder complete). Level 6 does not mark the birth of the pair, and it is **not** the same point as `5.12` — it marks a **change of KIND**: the pair has passed the **vertical Badge Certification** (Development → Badge Certified). `5.12` is the precondition; `6.0` is the certified KIND.
 
-## Team UniCORE is a category change, not just the next rung
+## Team UniCORE (6.0) is a KIND change gated by vertical certification — not just a full 5.x clock
 
-Level 6 is not "Development Institutional AI with a bigger model," and it is **not** where the 1H1C pair first appears. The pair is present throughout — every UniCORE Claw is a 1H1C pair with a named, accountable human from day one (see the section above). What Level 6 marks is that the pair's **governance ladder is complete**: all 12 Governance Levels operating, the human bound at L12, and the full truth-chain reaching them. Model capability alone can never supply what liability law will demand — **someone answerable** — and in a 1H1C pair that someone is present at *every* maturity level, not only at 6.0. This is why 6.0 is the apex: the axis has run its full length, from "what the AI can do" to a complete, audited governance ladder terminating in the accountable human. Reaching 6.0 means governance L12 is confirmed: not that the pair now exists, but that its governance is **whole**. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
+Level 6 is not "Development Institutional AI with a bigger model," and it is **not** where the 1H1C pair first appears, and it is **not** merely a full `5.x` clock. The pair is present throughout — every UniCORE Claw is a 1H1C pair with a named, accountable human from day one (see the section above). `5.12` marks the pair's **Development governance ladder complete**: all 12 Development Governance Levels operating, the human bound at L12, the full truth-chain reaching them. `6.0` is the **separate KIND change** — the pair passing the **vertical Badge Certification** (for `unicore`, the Law Vertical) — after which it develops its own commercial-use-certified `6.01→6.12` ladder. Model capability alone can never supply what liability law will demand — **someone answerable** — and in a 1H1C pair that someone is present at *every* maturity level. This is why the ladder runs Development (`5.x`) → Badge Certification gate (`6.0`) → commercial-use certified (`6.01→6.12`), and onward into the second octave (`7.x` Development / `8.0` Badge / `8.13→8.24` above commercial). Reaching `6.0` means the vertical certification is confirmed — a change of KIND, not merely a whole clock. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
 
 ## Load Boundary — Consumer content may NOT enter Institutional cells (locked 2026-07-03 07:37 UTC, Bryan)
 
