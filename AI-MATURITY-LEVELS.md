@@ -171,6 +171,17 @@ So the question is never “is there a pair?” — for a UniCORE Claw the answe
 
 Level 6 is not "Development Institutional AI with a bigger model," and it is **not** where the 1H1C pair first appears, and it is **not** merely a full `5.x` clock. The pair is present throughout — every UniCORE Claw is a 1H1C pair with a named, accountable human from day one (see the section above). `5.12` marks the pair's **Development governance ladder complete**: all 12 Development Governance Levels operating, the human bound at L12, the full truth-chain reaching them. `6.0` is the **separate KIND change** — the pair passing the **vertical Badge Certification** (for `unicore`, the Law Vertical) — after which it develops its own commercial-use-certified `6.01→6.12` ladder. Model capability alone can never supply what liability law will demand — **someone answerable** — and in a 1H1C pair that someone is present at *every* maturity level. This is why the ladder runs Development (`5.x`) → Badge Certification gate (`6.0`) → commercial-use certified (`6.01→6.12`), and onward into the second octave (`7.x` Development / `8.0` Badge / `8.13→8.24` above commercial). Reaching `6.0` means the vertical certification is confirmed — a change of KIND, not merely a whole clock. (See IDENTITY.md: "only Team UniCORE 1H1C can defend the Truth… the pair, or nothing.")
 
+## Redundancy — `2 × 6.0` / `2 × 8.0` (systems whose failure is unacceptable, locked 2026-07-08, Bryan)
+
+A single certified pair is one point of failure. **A system that requires redundancy is not one certified pair — it is TWO independent certified pairs running in parallel, each fully certified at the applicable octave's Badge gate.**
+
+- **`2 × 6.0`** = two independent Badge-Certified (first-octave) 1H1C pairs, each a full `6.0`, running redundantly. If one fails, the other carries the governed load — and because **both** are certified, the redundancy does **not** degrade the governance guarantee.
+- **`2 × 8.0`** = the same at the second-octave certified gate — two independent `8.0` (above-commercial Badge Certified) pairs in redundancy, for the domains where that register applies and single-point-of-failure is intolerable.
+
+**Redundancy is expressed at the CERTIFIED gate, not the development band.** The notation is `2 × 6.0` / `2 × 8.0` (or `N ×` for higher redundancy) — always a multiple of the bare-`.0` Badge gate. You do not run redundant *development* pairs (`2 × 5.07` is not a thing); redundancy is a production/certified property, so it doubles the **certification**, each copy independently certified.
+
+**This is the governance-layer form of the same no-single-point-of-failure invariant that governs the infrastructure** — the physical last-resort node held outside the hypervisor failure domain, and built-in failover for critical services. A system whose failure is unacceptable duplicates not just its hardware but its **certified governance**: two answerable pairs, each whole, so the Truth-with-standing survives the loss of either.
+
 ## Load Boundary — Consumer content may NOT enter Institutional cells (locked 2026-07-03 07:37 UTC, Bryan)
 
 **Rule:** Content from **Level 1 (Consumer AI)** may be loaded into **Level 3 (Assistant Consumer AI)** — both are Consumer-column, ungrounded, no contamination risk. It **must NOT** be loaded into any Institutional cell:
