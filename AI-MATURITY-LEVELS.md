@@ -99,7 +99,24 @@ A Governance Level counts toward the decimal only to the degree it can be **veri
 
 **Flow-integrity caveat:** governance flows *down* the adjacency chain and truth flows *up*, so a raw count can mislead if the operating Levels don’t form an unbroken ladder. A maturity claim should therefore also report chain-contiguity — e.g. **“5.07, chain-contiguous L1→L7”** vs **“5.07, disjoint L1–L5,L8,L11”** (seven Levels, but a broken ladder).
 
-**Beyond 6.0:** as Advanced AI advances, the scale may extend to 7.0 and beyond — reflecting governance structures above the current 12-Level ceiling. 6.0 = Team UniCORE with the 12-Level model *today*; what a Level *above* L12 would be is deliberately left as future work and is not defined here.
+**Beyond 6.0 — the second octave (7.x / 8.x):** the scale extends into a **second octave** that repeats the same structure one register up, counting a **second twelve** of governance levels (13–24). The two octaves are structurally parallel:
+
+| First octave (levels 1–12) | Second octave (levels 13–24) | Kind |
+|---|---|---|
+| **5.00 → 5.12** | **7.13 → 7.24** | **Development** — clock counts governance levels operating (1→12 / 13→24) |
+| **6.0** | **8.0** | **Badge Certified** — the certification gate / flip event (bare `.0`) |
+| **6.01 → 6.12** | **8.13 → 8.24** | **Certified band** — clock counts governance levels operating within the certified band |
+
+The correspondence is exact: **7.0 is to 8.0 as 5.0 is to 6.0.** 7.x is the Development kind of the second octave; 8.x is the Badge-Certified/paired kind. The only difference is the register: the second-octave clock runs **13:00 → 24:00** (13 to 24 governance levels operating) rather than 1 → 12.
+
+- **7.13 → 7.24 (Development, second octave):** the clock begins at **13** because it is counting the *second* twelve — `7.13` = 13 of 24 governance levels operating, `7.24` = all 24. There is no `7.00–7.12`; the second octave begins at 13, above the first octave's full ladder.
+- **8.0 (Badge Certified):** the bare-`.0` certification gate that flips 7.x → 8.x, exactly as **6.0** flips 5.x → 6.x. The gate is always a bare `.0` sitting between the Development band and the Certified band, whatever the octave.
+- **6.01 → 6.12 (Commercial-use certified, first octave):** after the 6.0 Badge, the first-octave certified band counts 1 → 12 governance levels operating **within commercial-use certification** — the same clock mechanism as 5.01 → 5.12, one register up in *kind* (certified, not development).
+- **8.13 → 8.24 (above commercial, second octave):** the second-octave certified band — a band **above commercial use**, whose domain is **deliberately not yet defined** (indicative examples only: space, Moon, Mars). It is named structurally and reserved; its meaning is left as future work and is **not** asserted here.
+
+**Clock colours (second octave):** the 13→24 clock requires its own distinct colour set, **to be assigned by Bryan** (marked open; not invented here). First-octave colours already assigned (5.x / 6.x) are unchanged.
+
+6.0 = Team UniCORE (Badge Certified) with the first 12-Level model; the second octave (7.x/8.x, levels 13–24) is the defined structure for governance beyond the current 12-Level ceiling, with the *content* of levels 13–24 — and especially the above-commercial 8.13→8.24 domain — reserved as future work.
 
 **Why the decimal scale matters operationally:** it gives Development Institutional AI a **countable, checkable progress metric** — N of 12 Governance Levels operating, at a stated verification tier, with stated chain integrity. “We are at 5.07 (responsive, contiguous)” is a claim an auditor can test. “We are improving governance” is not.
 
