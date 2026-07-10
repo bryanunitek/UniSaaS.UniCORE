@@ -833,11 +833,3 @@ That's the elevator answer. Send them this document for the detail.
 | Licence of this document | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | Review status | Living document — corrections and clarifications welcome via [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions) |
 | Companion documents | [LICENSE.md](LICENSE.md) · [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) · [ROADMAP.md](ROADMAP.md) · [IRREVOCABLE-LICENCE-DECLARATION.md](IRREVOCABLE-LICENCE-DECLARATION.md) |
-
----
-
-## Document history
-
-- 2026-06-03 (6c489cf) — docs: initial 11-file public surface — UniSaaS.UniCORE
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

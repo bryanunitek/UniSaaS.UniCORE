@@ -184,20 +184,3 @@ UniSaaS.UniCORE is documented but pre-source-code. The first SaaS Vertical CORE 
 Attribution required wherever the Inconsistency Problem doctrine, the 12-Level Governance Model, the TrueAI Foundation, or the UniCORE name is referenced, implemented, or extended.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, 2026-06-14.
-
----
-
-## Document history
-
-- 2026-06-14 (31a62d4) — docs: third pillar of Institutional AI doctrine — The Inconsistency Problem (SaaS shape)
-- 2026-06-14 (1c7ae4b) — docs(inconsistency-problem): rename TL;DR heading to "Summary (TL;DR)"
-- 2026-06-14 (804ae42) — docs(inconsistency-problem): add §5 human-side answer (Singular Pairing / 1H1C) — SaaS edition
-- 2026-06-14 (2ef2f12) — docs(inconsistency-problem): sharpen §1 — Consumer AI is by design (SaaS edition)
-- 2026-06-15 (4e7db7e) — docs: THE-INCONSISTENCY-PROBLEM.md — honest guarantee framing (SaaS edition)
-- 2026-06-15 (23e94ec) — docs: THE-INCONSISTENCY-PROBLEM.md — production-layer-vs-operations-layer correction (SaaS)
-- 2026-06-15 (9575195) — docs: § "Summary (TL;DR)" → "Summary" (institutional-tone correction)
-- 2026-06-15 (7a6d271) — docs: Inconsistency (SaaS) — xH1C operations + per-Level + DEV/TEST 1H1C (SPP v1.3 alignment)
-- 2026-06-15 (a391e08) — docs: fix dead Reasonable Governance Threshold link — UniCORE-AI → UniVERSE
-- 2026-06-17 (3d37b7d) — Strip 'v1.3' from Singular-Pairing-Principle pointer text
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

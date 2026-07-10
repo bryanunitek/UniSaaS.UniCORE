@@ -29,11 +29,3 @@ Two structural points carry through to this repository:
 ---
 
 *Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom. Public. Given, not sold. Irrevocable.*
-
----
-
-## Document history
-
-- 2026-06-03 (6c489cf) — docs: initial 11-file public surface — UniSaaS.UniCORE
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

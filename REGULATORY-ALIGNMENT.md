@@ -43,11 +43,3 @@ Singular Pairing Principle on 2026-06-14 23:30 UTC.
 
 This pointer is not a partial or summary version of the regulatory-
 alignment shelf. Read the canonical home for substantive content.
-
----
-
-## Document history
-
-- 2026-06-17 (d5e8a06) — docs(regulatory-alignment): pointer to canonical TrueAI home
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
