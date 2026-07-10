@@ -133,3 +133,11 @@ Revisions tracked in git history.
 - **Private contact / connection request:** [LinkedIn](https://www.linkedin.com/in/bryan-fred-02209753/)
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, June 2026.
+
+---
+
+## Document history
+
+- 2026-06-03 (6c489cf) — docs: initial 11-file public surface — UniSaaS.UniCORE
+
+*Back-filled from git log on 2026-07-10 21:33 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -57,3 +57,11 @@ He has read this disclosure, authorised its publication, and accepts editorial r
 ---
 
 *This file was written by the AI system assisting this programme and is published under the sole authority of Bryan Fred.*
+
+---
+
+## Document history
+
+- 2026-06-03 (6c489cf) — docs: initial 11-file public surface — UniSaaS.UniCORE
+
+*Back-filled from git log on 2026-07-10 21:33 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
