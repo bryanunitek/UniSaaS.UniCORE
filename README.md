@@ -397,3 +397,22 @@ UniSaaS.UniCORE is the SaaS-deployment-shape implementation reference for govern
 
 - **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniSaaS.UniCORE/discussions) (see [DISCUSSIONS.md](DISCUSSIONS.md))
 - **Private contact / connection request:** [LinkedIn](https://www.linkedin.com/in/bryan-fred-02209753/)
+
+---
+
+## Document history
+
+- 2026-06-03 (6c489cf) — docs: initial 11-file public surface — UniSaaS.UniCORE
+- 2026-06-03 (7fce256) — docs(README): add Private SaaS as third operator position
+- 2026-06-03 (84851ed) — docs: add NVarchar 3-mode, 10-level Mass Data Gen, IIC + Aderant
+- 2026-06-04 (8c979a1) — docs(README): add Platforms and UI Surfaces section
+- 2026-06-04 (14477a7) — docs(README): cross-reference Avalonia + DNN forked-upstream families
+- 2026-06-04 (d9149d1) — docs(README): cross-reference UniCORE-Claw substrate-harness pair
+- 2026-06-04 (4442c0c) — docs(README): cross-reference Asterisk, Jitsi, Signal, XCP families
+- 2026-06-06 (d638833) — docs(readme): add fleet inventory pointer (193 repos, Book canonical home)
+- 2026-06-14 (31a62d4) — docs: third pillar of Institutional AI doctrine — The Inconsistency Problem (SaaS shape)
+- 2026-06-15 (0f1128a) — docs(README): add Three Pillars framing block — Audience / Truth / Inconsistency
+- 2026-06-19 (a3838b5) — docs(README): add strap-line to 'Why...' section
+- 2026-07-01 (e4a3343) — Add Quancrypted as 4th NVarchar Data Mode (SaaS mirror)
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

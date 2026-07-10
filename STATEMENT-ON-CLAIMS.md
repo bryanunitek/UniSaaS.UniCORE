@@ -146,3 +146,12 @@ The precise, file-level status of every component — built / module-wired / hos
 Numbers cited in public material are re-verified against the repository file tree before publication, not against any summary of it. Where this addendum and a working-repository ledger disagree, the ledger — generated from live source — governs.
 
 *This addendum is documentation-only under CC BY 4.0. It does not claim regulatory approval, attest conformity, or accept liability. Per-deployment compliance determinations remain the responsibility of the deployer and their qualified legal counsel.*
+
+---
+
+## Document history
+
+- 2026-06-03 (6c489cf) — docs: initial 11-file public surface — UniSaaS.UniCORE
+- 2026-06-27 (c9fed50) — docs(STATEMENT-ON-CLAIMS): add 2026-06-27 Build Status Addendum
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -230,3 +230,22 @@ Levels **1 (Consumer AI)** and **2 (Institutional AI)** — used on the **genera
 - The framework + thesis are **advocacy that is TRUE today** (public foundation, laws exist, liability inbound).
 - **NO product-certification claims** in public/LinkedIn material (HEARTBEAT gated-task rule): do not claim UniCORE is "certified" — the Badge/product-cert is gated until dotnet-certified. Argue the *principle*, not a product cert.
 - USER.md "5 public repos" note is now **stale** — the two UniSaaS flagships bring the public gift surface to **7**. (Flagged for USER.md update.)
+
+---
+
+## Document history
+
+- 2026-07-03 (73b6a08) — Add AI-MATURITY-LEVELS.md — six-level AI maturity framework (Consumer AI to Team UniCORE), AI-Compliance floor, liability thesis. CC BY 4.0 public foundation.
+- 2026-07-03 (c4bc010) — Add governance decimal scale 5.00→6.0; Load Boundary; updated framework notes (2026-07-03 09:15 UTC, Bryan)
+- 2026-07-03 (9e4c048) — Anonymise practical example — use Client A instead of personal name (2026-07-03 Bryan-direct)
+- 2026-07-03 (88bdf36) — docs(ai-maturity): decimal scale = COUNT of Governance Levels operating, with tiered acceptance tests
+- 2026-07-03 (730e78a) — docs(maturity): add Maturity Icons legend — one emoji per level (1.0–6.0), clock-hour = count of 12 Governance Levels operating
+- 2026-07-03 (4bcc656) — docs(maturity): clarify 1H1C is the structure (present at every level), not something that forms at 6.0 — maturity measures the pair's governance depth
+- 2026-07-04 (05ad7c7) — AI-MATURITY-LEVELS: 6.0 maturity icon = blue shield 🛡️ (was handshake)
+- 2026-07-08 (b242a0f) — AI-Maturity: define second octave (7.x/8.x, levels 13-24) — 7.13-7.24 Development, 8.0 Badge Certified, 8.13-8.24 above-commercial (reserved); replaces 'beyond 6.0' stub with defined two-octave model (Bryan-directed 2026-07-08 09:25 UTC)
+- 2026-07-08 (1a3c56d) — AI-Maturity: reorder second-octave band list sequentially (5->6->7->8) for readability — no meaning change (Bryan-directed 2026-07-08 09:30 UTC)
+- 2026-07-08 (b199a6d) — AI-Maturity: retire 5.12 = 6.0 equivalence — whole-number=KIND (5 Development / 6 Badge Certified), decimal=count of governance levels; 5.12=precondition, 6.0=vertical-cert flip, 6.01-6.12=commercial-certified band; shield colour distinguishes octaves (6.x blue / 8.x distinct); unicore is 5.x not certified (Bryan-ratified 2026-07-08 10:18 UTC)
+- 2026-07-08 (7a6d1db) — AI-Maturity: add redundancy model — 2x6.0 / 2x8.0 (systems whose failure is unacceptable = two independent certified pairs at the Badge gate; governance-layer form of the no-single-point-of-failure invariant) (Bryan-directed 2026-07-08 10:20 UTC)
+- 2026-07-08 (2ed9207) — AI-Maturity: add soft/hard post governance — 12-Level walk, reprocess-on-inconsistency (AI-side OR human-side), daily-compounding consistency from mandatory logging, human-authorised hard post (authority does not migrate) (Bryan-directed 2026-07-08 10:32 UTC)
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

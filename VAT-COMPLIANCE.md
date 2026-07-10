@@ -186,3 +186,11 @@ Gate implementations do not monitor filing thresholds,voluntary registration tri
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | June 2026 | First publication. Describes Tier-4 VAT Compliance as implemented in the UniCORE substrate — 178 jurisdictions, interface-driven architecture, honest-fixture posture, UK MTD digital-links gate, and Peppol/UBL e-invoicing support. |
+
+---
+
+## Document history
+
+- 2026-06-25 (24877ec) — docs: add VAT-COMPLIANCE.md — sister-mirror of unicore_public c16b942
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
