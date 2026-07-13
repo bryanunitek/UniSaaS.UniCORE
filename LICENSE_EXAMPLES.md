@@ -11,7 +11,7 @@ licence: CC BY 4.0
 **Living document.** Corrections and clarifications welcome via [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions)
 **Licence of this document:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-> This document is plain-English guidance for Partners, Clients, and Software Providers. Where this document and the canonical [LICENSE.md](LICENSE.md) disagree, the canonical licence text wins.
+> This document is plain-English guidance for Partners, Clients, and Software Providers. Where this document and the canonical [LICENSE.md](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/LICENSE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/LICENSE.md)) disagree, the canonical licence text wins.
 
 ---
 
@@ -832,4 +832,4 @@ That's the elevator answer. Send them this document for the detail.
 | Author | Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom |
 | Licence of this document | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | Review status | Living document — corrections and clarifications welcome via [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions) |
-| Companion documents | [LICENSE.md](LICENSE.md) · [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) · [ROADMAP.md](ROADMAP.md) · [IRREVOCABLE-LICENCE-DECLARATION.md](IRREVOCABLE-LICENCE-DECLARATION.md) |
+| Companion documents | [LICENSE.md](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/LICENSE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/LICENSE.md)) · [STATEMENT-ON-CLAIMS.md](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/STATEMENT-ON-CLAIMS.md)) · [ROADMAP.md](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/ROADMAP.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/ROADMAP.md)) · [IRREVOCABLE-LICENCE-DECLARATION.md](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/IRREVOCABLE-LICENCE-DECLARATION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md)) |

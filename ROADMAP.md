@@ -70,7 +70,7 @@ The Vertical SaaS CORE Law layer continues to mature ahead of certification. Ver
 
 Under the 2026-04-24 five-Solution lock, the consumption tier carries five Solutions: `UniCORE`, `UniCORE-UniVIEW`, `UniCORE-UniREPORT`, `UniSaaS-UniCORE-UniVIEW`, `UniSaaS-UniCORE-UniREPORT`. UniSaaS.UniCORE is the SaaS-shape parent of the last two.
 
-**Today, pre-certification:** UniVIEW and UniREPORT are documented inside this repository's [README.md §"UniVIEW and UniREPORT"](README.md#uniview-and-unireport) and inside the on-prem-shape parent UniCORE repository.
+**Today, pre-certification:** UniVIEW and UniREPORT are documented inside this repository's [README.md §"UniVIEW and UniREPORT"](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/README.md#uniview-and-unireport) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/README.md#uniview-and-unireport)) and inside the on-prem-shape parent UniCORE repository.
 
 **At certification:** UniVIEW and UniREPORT each get their own public gift-surface repository, peer to UniSaaS.UniCORE: `bryanunitek/UniSaaS.UniCORE.UniVIEW` and `bryanunitek/UniSaaS.UniCORE.UniREPORT`. Each carries the same 11-file gift-surface shape. Cross-references from UniSaaS.UniCORE will be updated to point to them at that point.
 

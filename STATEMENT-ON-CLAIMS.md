@@ -67,7 +67,7 @@ No person, company, consortium, standards body, regulator, or research group may
 These restrictions do not prevent:
 
 - **Implementation** of SaaS substrates that satisfy the TrueAI Foundation invariants, the UniCORE AI architecture, and the published UniSaaS.UniCORE substrate (once published). Implementation is encouraged.
-- **Commercial work** performed around such an implementation — integration, training, support, extensions outside the core. This is permitted, subject to the gift principle and the monopoly clause in [LICENSE.md](LICENSE.md).
+- **Commercial work** performed around such an implementation — integration, training, support, extensions outside the core. This is permitted, subject to the gift principle and the monopoly clause in [LICENSE.md](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE/src/branch/main/LICENSE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/LICENSE.md)).
 - **Academic, policy, and public-interest citation** of UniSaaS.UniCORE. Welcomed, subject to CC BY 4.0 attribution.
 - **Public challenge, correction, or stress-testing** of UniSaaS.UniCORE on the Discussions tab.
 
