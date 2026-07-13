@@ -8,7 +8,7 @@
 
 All content in this repository — including but not limited to the UniCORE implementation reference documentation, the source code published here on certification, governance documentation, technical references, roadmaps, and operational documents — is provided under the terms of the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
-The wider programme corpus (Foundation Documents, TrueAI Foundation invariants, UniCORE AI 12-Level Governance Architecture, governance constitutions) is published under the same CC BY 4.0 terms in the [UniVERSE](https://github.com/bryanunitek/UniVERSE), [TrueAI](https://github.com/bryanunitek/TrueAI), and [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI) repositories. UniCORE inherits the same licence and the same irrevocability.
+The wider programme corpus (Foundation Documents, TrueAI Foundation invariants, UniCORE AI 12-Level Governance Architecture, governance constitutions) is published under the same CC BY 4.0 terms in the [UniVERSE](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)), [TrueAI](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)), and [UniCORE-AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) repositories. UniCORE inherits the same licence and the same irrevocability.
 
 You are free to:
 
@@ -31,7 +31,7 @@ The gift may not be revoked by its giver. It can be withdrawn from a violator of
 
 ## Programme commitment: apprenticeships
 
-The programme is intended to remain reachable for humans who want to be part of this but may not be able to attend university. **Those using the CORE are encouraged to offer apprenticeship opportunities** to high school graduates and other practitioners entering the programme without a university route. The intent is to keep the gift principle (above) and the [certification scheme](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md) reachable by humans the conventional pathway excludes — a CORE built on a gift should not, in practice, only be accessible to people whose families could fund three to four years of higher education.
+The programme is intended to remain reachable for humans who want to be part of this but may not be able to attend university. **Those using the CORE are encouraged to offer apprenticeship opportunities** to high school graduates and other practitioners entering the programme without a university route. The intent is to keep the gift principle (above) and the [certification scheme](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/CERTIFIED-EXPERTS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md)) reachable by humans the conventional pathway excludes — a CORE built on a gift should not, in practice, only be accessible to people whose families could fund three to four years of higher education.
 
 **This is encouragement, not a licence requirement.** Failure to offer apprenticeships is **not** a licence violation, is **not** grounds for revocation of any expert certification, and is **not** classified as monopolisation under the monopoly clause below. The programme records this commitment because what a licence encourages, not only what it forbids, is part of how the gift propagates. Organisations using the CORE that do offer apprenticeship places carry that fact on their public record as part of how the wider community recognises them.
 
@@ -54,14 +54,14 @@ You may not:
 
 ## The Monopoly Clause and Its Exemption
 
-Classification of conduct as monopolisation under the clause above is made at the **sole discretion of Unitek Systems Limited** (UK Companies House 04228041), acting as the programme's certifying authority and the originator of the materials covered by this licence. An [appeals process](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md#43-appeals) is provided where Unitek Systems Limited proposes to withdraw the licence (or any expert certification derived from it) on this ground.
+Classification of conduct as monopolisation under the clause above is made at the **sole discretion of Unitek Systems Limited** (UK Companies House 04228041), acting as the programme's certifying authority and the originator of the materials covered by this licence. An [appeals process](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/CERTIFIED-EXPERTS.md#43-appeals) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md#43-appeals)) is provided where Unitek Systems Limited proposes to withdraw the licence (or any expert certification derived from it) on this ground.
 
 ### Conditional exemption — activity-based, not identity-based
 
 The following parties are exempt from classification as monopolists under this clause, **only for so long as their activity in respect of the programme remains non-product**:
 
 - **Bryan Fred**, as Author and Creator of UniVERSE, TrueAI, and UniCORE-AI.
-- **Any future named successor** under the [TrueAI whitepaper succession statement](https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md#8-succession-and-stewardship).
+- **Any future named successor** under the [TrueAI whitepaper succession statement](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/whitepaper/WHITEPAPER.md#8-succession-and-stewardship) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md#8-succession-and-stewardship)).
 - **Unitek Systems Limited** (UK Companies House 04228041), as the programme's parent organisation.
 - **Each Unitek Systems Limited group subsidiary**, while it conducts only non-product programme activity:
   - Unitek Systems USA Inc
@@ -96,7 +96,7 @@ Without an exemption for the programme's stewards, a hostile party could attempt
 
 ## The TrueAI Foundation Invariants (Non-Negotiable)
 
-Regardless of this license, the following invariants always apply to any system claiming TrueAI alignment. They cannot be waived or licensed away. Canonical long-form statement: [TrueAI Foundation whitepaper](https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md).
+Regardless of this license, the following invariants always apply to any system claiming TrueAI alignment. They cannot be waived or licensed away. Canonical long-form statement: [TrueAI Foundation whitepaper](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/whitepaper/WHITEPAPER.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md)).
 
 1. **No Autonomy.**
 2. **No Self-Modification.**

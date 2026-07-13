@@ -10,13 +10,13 @@ First published: June 2026
 
 This statement defines how the **UniSaaS.UniCORE** name may and may not be used in public, and sets binding rules for the UniSaaS.UniCORE GitHub Discussions space.
 
-The canonical programme-wide statement covering UniVERSE, TrueAI, and UniCORE AI names is published in the UniVERSE repository at [`STATEMENT-ON-CLAIMS.md`](https://github.com/bryanunitek/UniVERSE/blob/main/STATEMENT-ON-CLAIMS.md). The on-prem-shape sister statement is at [`UniCORE/STATEMENT-ON-CLAIMS.md`](https://github.com/bryanunitek/UniCORE/blob/main/STATEMENT-ON-CLAIMS.md). This file extends the same rules to the **UniSaaS.UniCORE** name and to the SaaS-deployment-shape working repositories that descend from it.
+The canonical programme-wide statement covering UniVERSE, TrueAI, and UniCORE AI names is published in the UniVERSE repository at [`STATEMENT-ON-CLAIMS.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/STATEMENT-ON-CLAIMS.md)). The on-prem-shape sister statement is at [`UniCORE/STATEMENT-ON-CLAIMS.md`](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/STATEMENT-ON-CLAIMS.md)). This file extends the same rules to the **UniSaaS.UniCORE** name and to the SaaS-deployment-shape working repositories that descend from it.
 
 ---
 
 ## What UniSaaS.UniCORE is
 
-UniSaaS.UniCORE is the **SaaS-deployment-shape implementation reference layer** of the programme. It sits in the [Layered CORE model](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00057-Layered-CORE-Model.md) at Level 2 ↔ Level 3 — between the universal architecture (UniCORE AI) and the Vertical CORE specific to a sector — identically to its on-prem-shape sister UniCORE.
+UniSaaS.UniCORE is the **SaaS-deployment-shape implementation reference layer** of the programme. It sits in the [Layered CORE model](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00057-Layered-CORE-Model.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00057-Layered-CORE-Model.md)) at Level 2 ↔ Level 3 — between the universal architecture (UniCORE AI) and the Vertical CORE specific to a sector — identically to its on-prem-shape sister UniCORE.
 
 UniSaaS.UniCORE is a governance work, not a product. It is not a platform. It is not a SaaS offering. It is not a tool category. It is not a brand for sale.
 
@@ -75,11 +75,11 @@ These restrictions do not prevent:
 
 ## The certification claim
 
-The phrase **"Powered by UniCORE AI / built on the TrueAI Foundation"** is a structured certification claim, not a marketing tagline. It may only be applied to a SaaS Vertical Solution that has gone through the [Solution Review](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00059-Solution-Review.md) process and been certified.
+The phrase **"Powered by UniCORE AI / built on the TrueAI Foundation"** is a structured certification claim, not a marketing tagline. It may only be applied to a SaaS Vertical Solution that has gone through the [Solution Review](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00059-Solution-Review.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00059-Solution-Review.md)) process and been certified.
 
 The phrase **"Powered by UniCORE"** (without `AI`) is reserved for SaaS Solutions that build on a published UniSaaS.UniCORE substrate from this repository. It carries the same weight as the AI certification and may only be applied after Solution Review.
 
-Misapplication of either phrase is a misrepresentation. See the canonical [`UniVERSE/STATEMENT-ON-CLAIMS.md`](https://github.com/bryanunitek/UniVERSE/blob/main/STATEMENT-ON-CLAIMS.md) for the wider rules and the enforcement posture.
+Misapplication of either phrase is a misrepresentation. See the canonical [`UniVERSE/STATEMENT-ON-CLAIMS.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/STATEMENT-ON-CLAIMS.md)) for the wider rules and the enforcement posture.
 
 ---
 

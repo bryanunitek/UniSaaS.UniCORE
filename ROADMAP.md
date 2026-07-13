@@ -8,7 +8,7 @@ licence: CC BY 4.0
 
 # UniSaaS.UniCORE — Roadmap
 
-**What arrives here, when, and under what trigger condition. The SaaS-deployment-shape sister of [UniCORE/ROADMAP.md](https://github.com/bryanunitek/UniCORE/blob/main/ROADMAP.md).**
+**What arrives here, when, and under what trigger condition. The SaaS-deployment-shape sister of [UniCORE/ROADMAP.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/ROADMAP.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/ROADMAP.md)).**
 
 ---
 
@@ -84,17 +84,17 @@ The certification arc is roughly:
 
 1. **Build** — `UniSaaS.UniCORE.Law-Claw` and `UniSaaS.UniCORE.GVB-Claw` are built privately to the level the Foundation invariants require, including the SaaS-shape additions (multi-tenant routing, signing-key separation, tenant-by-email resolution).
 2. **Self-assessment** — the Generation IT producer pair self-assesses against the Nine Invariants and the 12-Level reference architecture, including the SaaS-shape adaptations.
-3. **Solution Review** — independent Solution Review by a [Certified Expert](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md) (or by the producer pair where they themselves hold the certification, per the rule in `UniVERSE/docs/00059-Solution-Review.md`).
+3. **Solution Review** — independent Solution Review by a [Certified Expert](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/CERTIFIED-EXPERTS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md)) (or by the producer pair where they themselves hold the certification, per the rule in `UniVERSE/docs/00059-Solution-Review.md`).
 4. **Certification recorded** — the Solution Review outcome is recorded; the certification claim ("Powered by UniCORE AI / built on the TrueAI Foundation") becomes valid for the SaaS-shape Solution.
 5. **Public publication** — the UniSaaS.UniCORE substrate is extracted and published here. The Vertical SaaS CORE Business Objects remain in the Vertical SaaS CORE's own repository.
 
-The exact procedural detail of the certification is governed by the canonical material in [`UniVERSE/docs/10002-Certification-Before-Layered-Governance.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/10002-Certification-Before-Layered-Governance.md) and [`UniVERSE/docs/00059-Solution-Review.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00059-Solution-Review.md).
+The exact procedural detail of the certification is governed by the canonical material in [`UniVERSE/docs/10002-Certification-Before-Layered-Governance.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/10002-Certification-Before-Layered-Governance.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/10002-Certification-Before-Layered-Governance.md)) and [`UniVERSE/docs/00059-Solution-Review.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00059-Solution-Review.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00059-Solution-Review.md)).
 
 ---
 
 ## Why DRAFT v0.01 today
 
-The programme as a whole is in DRAFT v0.01. Versioning across the public repositories does not turn on until the first GitHub Discussion is opened in any of the public programme repositories — see [`UniVERSE/HORIZON.md`](https://github.com/bryanunitek/UniVERSE/blob/main/HORIZON.md) for the canonical statement.
+The programme as a whole is in DRAFT v0.01. Versioning across the public repositories does not turn on until the first GitHub Discussion is opened in any of the public programme repositories — see [`UniVERSE/HORIZON.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/HORIZON.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/HORIZON.md)) for the canonical statement.
 
 This repository inherits that posture. The `Version: 1.0` line in the header is a placeholder. Substantive change is tracked in git history; programme-level versioning will be enabled when the corpus moves out of draft.
 
@@ -104,14 +104,14 @@ This repository inherits that posture. The `Version: 1.0` line in the header is 
 
 The same horizon that applies to the wider programme applies here. UniSaaS.UniCORE source publication depends on the certification arc, which depends on the substrate being honestly built to satisfy the invariants in the SaaS deployment shape. That is decade-shaped work.
 
-For the canonical horizon statement, see [`UniVERSE/HORIZON.md`](https://github.com/bryanunitek/UniVERSE/blob/main/HORIZON.md). UniSaaS.UniCORE does not publish a separate horizon — the programme horizon governs.
+For the canonical horizon statement, see [`UniVERSE/HORIZON.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/HORIZON.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/HORIZON.md)). UniSaaS.UniCORE does not publish a separate horizon — the programme horizon governs.
 
 ---
 
 ## What readers can do today
 
 - **Cite the architecture** — the position of UniSaaS.UniCORE as the SaaS-deployment-shape sister to UniCORE, and the certification trigger, are public and citable now.
-- **Read the canonical material** — the Foundation triad ([UniVERSE](https://github.com/bryanunitek/UniVERSE), [TrueAI](https://github.com/bryanunitek/TrueAI), [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI)) is fully published; the technical reference for what UniSaaS.UniCORE substrate must satisfy is there. The on-prem-shape sister [UniCORE](https://github.com/bryanunitek/UniCORE) is published at the same documentation-only state today.
+- **Read the canonical material** — the Foundation triad ([UniVERSE](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)), [TrueAI](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)), [UniCORE-AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI))) is fully published; the technical reference for what UniSaaS.UniCORE substrate must satisfy is there. The on-prem-shape sister [UniCORE](https://git.unitek-systems.com/UniCORE/UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE)) is published at the same documentation-only state today.
 - **Build their own UniSaaS.UniCORE-conformant substrate** under CC BY 4.0 — the architecture is open. Independent producers building Foundation-aligned SaaS substrates are exactly what the gift principle exists to enable.
 - **Discuss** — open a thread on this repository's [Discussions tab](https://github.com/bryanunitek/UniSaaS.UniCORE/discussions) when adoption questions, architectural critique, or translation work has begun.
 

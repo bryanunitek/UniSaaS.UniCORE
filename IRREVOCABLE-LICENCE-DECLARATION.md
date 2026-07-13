@@ -17,11 +17,11 @@ This file in the **UniSaaS.UniCORE** repository exists to:
 
 ## Where to read the canonical declaration
 
-- [`UniVERSE/IRREVOCABLE-LICENCE-DECLARATION.md`](https://github.com/bryanunitek/UniVERSE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md)
-- [`TrueAI/IRREVOCABLE-LICENCE-DECLARATION.md`](https://github.com/bryanunitek/TrueAI/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md)
-- [`UniCORE-AI/IRREVOCABLE-LICENCE-DECLARATION.md`](https://github.com/bryanunitek/UniCORE-AI/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md)
+- [`UniVERSE/IRREVOCABLE-LICENCE-DECLARATION.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/IRREVOCABLE-LICENCE-DECLARATION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md))
+- [`TrueAI/IRREVOCABLE-LICENCE-DECLARATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/IRREVOCABLE-LICENCE-DECLARATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md))
+- [`UniCORE-AI/IRREVOCABLE-LICENCE-DECLARATION.md`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/IRREVOCABLE-LICENCE-DECLARATION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md))
 
-The three triad copies are byte-identical for the structural commitment. Read whichever is convenient. The UniCORE-name extension is at [`UniCORE/IRREVOCABLE-LICENCE-DECLARATION.md`](https://github.com/bryanunitek/UniCORE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md).
+The three triad copies are byte-identical for the structural commitment. Read whichever is convenient. The UniCORE-name extension is at [`UniCORE/IRREVOCABLE-LICENCE-DECLARATION.md`](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/IRREVOCABLE-LICENCE-DECLARATION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md)).
 
 ## Scope extension to UniSaaS.UniCORE
 

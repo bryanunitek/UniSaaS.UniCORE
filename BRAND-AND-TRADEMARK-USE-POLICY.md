@@ -17,11 +17,11 @@ This file in the **UniSaaS.UniCORE** repository exists to:
 
 ## Where to read the canonical policy
 
-- [`UniVERSE/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://github.com/bryanunitek/UniVERSE/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md)
-- [`TrueAI/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://github.com/bryanunitek/TrueAI/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md)
-- [`UniCORE-AI/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://github.com/bryanunitek/UniCORE-AI/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md)
+- [`UniVERSE/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/BRAND-AND-TRADEMARK-USE-POLICY.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md))
+- [`TrueAI/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/BRAND-AND-TRADEMARK-USE-POLICY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md))
+- [`UniCORE-AI/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/BRAND-AND-TRADEMARK-USE-POLICY.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md))
 
-The three triad copies are byte-identical for the structural rules. Read whichever is convenient. The on-prem-shape sister extension is at [`UniCORE/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://github.com/bryanunitek/UniCORE/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md).
+The three triad copies are byte-identical for the structural rules. Read whichever is convenient. The on-prem-shape sister extension is at [`UniCORE/BRAND-AND-TRADEMARK-USE-POLICY.md`](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/BRAND-AND-TRADEMARK-USE-POLICY.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/BRAND-AND-TRADEMARK-USE-POLICY.md)).
 
 ## Scope extension to UniSaaS.UniCORE
 

@@ -6,11 +6,11 @@ The UniSaaS.UniCORE programme follows the same succession plan as the foundation
 
 ## Canonical succession plan
 
-- [`UniVERSE/SUCCESSION.md`](https://github.com/bryanunitek/UniVERSE/blob/main/SUCCESSION.md) — the canonical home of the plan.
-- [`TrueAI/SUCCESSION.md`](https://github.com/bryanunitek/TrueAI/blob/main/SUCCESSION.md)
-- [`UniCORE-AI/SUCCESSION.md`](https://github.com/bryanunitek/UniCORE-AI/blob/main/SUCCESSION.md)
+- [`UniVERSE/SUCCESSION.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/SUCCESSION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/SUCCESSION.md)) — the canonical home of the plan.
+- [`TrueAI/SUCCESSION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/SUCCESSION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/SUCCESSION.md))
+- [`UniCORE-AI/SUCCESSION.md`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/SUCCESSION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/blob/main/SUCCESSION.md))
 
-The three are byte-identical for the structural plan. The UniCORE-name extension is at [`UniCORE/SUCCESSION.md`](https://github.com/bryanunitek/UniCORE/blob/main/SUCCESSION.md).
+The three are byte-identical for the structural plan. The UniCORE-name extension is at [`UniCORE/SUCCESSION.md`](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/SUCCESSION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/SUCCESSION.md)).
 
 ## Scope extension to UniSaaS.UniCORE
 
