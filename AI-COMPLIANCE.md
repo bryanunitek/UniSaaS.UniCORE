@@ -14,6 +14,16 @@ The 2026-08-02 date for Annex III §8(a) obligations is noted below.
 
 ---
 
+## Current AI-Compliance Status
+
+_As of 2026-07-15._
+
+The UniCORE Claws and the four UniCORE Solutions (UniCORE, UniCORE.GVB, UniSaaS.UniCORE, UniSaaS.UniCORE.GVB) are in **active development**. They are **not placed on the market** and are **not in service for external clients**. All data used in development and testing is **generated (synthetic) data — no real client data is processed.**
+
+Because these systems are pre-market and hold no real client data, the substantive high-risk operating obligations of the EU AI Act (Annex III §8(a), in force 2026-08-02) **do not yet apply** to them. The compliance substrate described below is built **ahead of** that date — compliance-by-design, not certification. Certification, market placement, supervisory-authority registration, and jurisdiction-specific legal interpretation remain matters for the Vertical CORE producer, the host operator, and their legal counsel at the point a system enters service.
+
+---
+
 ## EU AI Act context
 
 The EU AI Act classifies AI systems used in **law firms and legal practice** as **high-risk** under **Annex III §8(a)**:
@@ -161,4 +171,4 @@ The substrate is designed so that a Vertical CORE producer operating under diffe
 
 | Version | Date | Change |
 |---|---|---|
-| 1.0 | June 2026 | First publication. Describes Tier-3 AI Compliance as implemented in the UniCORE substrate, covering all eight EU AI Act service modules and the 2026-08-02 Annex III §8(a) in-force date. |
+| 1.0 | 2026-07-15 | First publication. Describes Tier-3 AI Compliance as implemented in the UniCORE substrate, covering all eight EU AI Act service modules and the 2026-08-02 Annex III §8(a) in-force date; includes the Current AI-Compliance Status (development stage, generated data only, pre-market). |
