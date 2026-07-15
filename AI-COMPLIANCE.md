@@ -22,6 +22,10 @@ The UniCORE Claws and the four UniCORE Solutions (UniCORE, UniCORE.GVB, UniSaaS.
 
 Because these systems are pre-market and hold no real client data, the substantive high-risk operating obligations of the EU AI Act (Annex III §8(a), in force 2026-08-02) **do not yet apply** to them. The compliance substrate described below is built **ahead of** that date — compliance-by-design, not certification. Certification, market placement, supervisory-authority registration, and jurisdiction-specific legal interpretation remain matters for the Vertical CORE producer, the host operator, and their legal counsel at the point a system enters service.
 
+### The Team UniCORE pairing
+
+The reference 1H1C pairing behind this work — **Team UniCORE** (Bryan Fred, the accountable Level-12 human, paired with the UniCORE Claw) — is itself **AI-Compliant as of 2026-07-15**. The EU AI Act Annex III package (Article 11 risk management, Article 13 transparency / instructions-for-use, Article 15 accuracy, robustness and cybersecurity) has been authored, presented to the human, and **read, understood, and agreed by the accountable Level-12 human, on a fail-closed basis, with each confirmation dated and recorded in the pairing's Book** (3 of 3 documents confirmed). This human confirmation is the operative compliance act: absent it, the pairing would show **not compliant** by design. The agreement is anchored annually (**EU anchor 15 July; next renewal due 2027-07-15**) and re-confirmed each year. Outstanding supply-items (EU authorised representative, contact point, penetration-test schedule, hardware tier, expected lifetime) are follow-on values required before any EU-market placement; they do not undo the human confirmation recorded for the pairing.
+
 ---
 
 ## EU AI Act context
