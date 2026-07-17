@@ -18,7 +18,7 @@
 
 Three facts define the present moment for AI in institutional use:
 
-1. **There is no manual.** No established operating standard exists for how AI must behave when it sits in the critical path of consequential decisions. Consumer-grade and Assistant-grade AI were shipped to everyone — institutions included — without the grounding and accountability structure that institutional use *requires*.
+1. **There is no manual.** No established operating standard exists for how AI must behave when it sits in the critical path of consequential decisions. This is **not** a defect in Consumer AI: Consumer-grade and Assistant-grade AI do exactly what they were designed to do, and it was never the AI makers' job to make their models Institutional-specific. The missing thing is the discipline layer that belongs *on top* — the manual, and these Maturity Levels that measure what must be added to lift a model from Consumer to Institutional use. The levels are **added on top of** Consumer AI, not a correction *to* it; and the duty to add them belongs to the deploying profession (the software companies and IT consultants placing AI into regulated work), not to the model vendor.
 2. **But the laws already exist.** The obligations are real and in force now — EU AI Act, sectoral regulation, professional-conduct duties, data-protection law. The legal obligations arrived *before* anyone wrote the method for meeting them. Law first; manual absent.
 3. **The liability is coming.** That gap — laws present, manual missing — resolves as **liability.** When ungrounded AI produces a consequential error inside an institutional decision, someone answerable will be held to account by courts and regulators. Not *if* — *when*.
 
