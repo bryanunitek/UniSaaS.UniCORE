@@ -215,6 +215,28 @@ A single certified pair is one point of failure. **A system that requires redund
 
 ---
 
+## Why Consumer AI cannot do this, and what Institutional AI must do (locked 2026-07-21, Bryan)
+
+The Maturity Levels above measure a boundary that is easy to state and hard to cross: **Consumer AI cannot be prompted into Institutional use.** Better prompts produce a better-looking result; they do not add the properties institutional work requires. Those properties are structural — they must be built into the system, not applied by a diligent human at the end.
+
+**What the law (and any consequential domain) actually demands.** The requirement is not on the *document* an AI produces — it is on every **decision** that produced it: which source to rely on, which fact is material, which risk to flag or omit, which interpretation to adopt. Each is a decision that must be **grounded** in a real source, **attributed** to one named accountable human, and **defensible** on the record. The finished document is only the sediment of hundreds of such decisions. The legal question is never "is the document good?" — it is "was each decision sound, grounded, and accountable, and can you show it?"
+
+**Why Consumer AI cannot satisfy this — three structural properties, not fixable by prompting:**
+
+1. **It can generate ungrounded output.** Consumer AI is best-effort; it can produce a confident assertion with no traceable source (the well-documented fabricated-citation failures are this property in the open). Institutional use requires every assertion to resolve to a real source. No prompt guarantees grounding.
+2. **It hides accountability.** Consumer AI presents a finished artifact; the chain of decisions inside it is invisible and attributed to no one. A human "reviewing the output" is checking the artifact — the one thing that does *not* carry the liability — while the decisions that do have already happened in a black box.
+3. **It is non-deterministic by design.** The same inputs on Monday and Thursday can produce different documents. For consumer use (drafting, exploring) this variation is a feature. For institutional use it is an evidentiary and consistency failure: you cannot reconstruct or defend a process that does not reproduce.
+
+**The honest limit — the model is always a black box.** No AI, Consumer or Institutional, exposes what the model does *internally* — its reasoning is not observable, and any tool claiming otherwise is misrepresenting what AI is. Institutional AI does **not** solve this by making the model transparent. It solves the *right* problem: not the model's internals, but the **interaction** — the worked process between the human and the AI.
+
+**What Institutional AI must do — the receipts.** Institutional AI must **log the interaction, immutably, as it happens**: every question, every answer, every response, every decision worked through, timestamped and attributed to one named accountable human. This record is not a convenience — it is the **evidence of what was done**, and the evidence of what was done is what protects against liability. When the work is later challenged — by a court, a regulator, a client — the question is not "was the AI good?" but "show me what you did." The party who can produce that record has a wall; the party who says "I used AI and reviewed it — trust me" has nothing.
+
+**The record cannot be manufactured afterward.** Once the challenge comes, it is too late: the record either exists, immutably, from when the work was done, or it does not exist at all. A human cannot reconstruct months of AI interactions from memory. This is precisely why the logging must be **structural and present from the first exchange** — a property of the system, not a discipline a person remembers to apply. Consumer AI keeps no such record and cannot be prompted into keeping one; Institutional AI is defined, in part, by the fact that it does.
+
+This is the load-bearing difference between the Consumer column and the Institutional column of the grid: not output quality, but whether every decision is grounded, attributed to one human, reproducible, and — above all — **on the record.**
+
+---
+
 ## The gap-finding method (Bryan's operational use of levels 1–2)
 
 Levels **1 (Consumer AI)** and **2 (Institutional AI)** — used on the **general web, with no local MD files** — are a **control experiment.** Same raw model; the *only* variable is the accountability standard. **The delta between their two answers IS the gap** — it exposes where an AI defaults to best-effort/ungrounded (Consumer) when institutional grounding was required. Bryan uses this A/B to *measure the AI-Compliance gap* in any Development Institutional AI.
