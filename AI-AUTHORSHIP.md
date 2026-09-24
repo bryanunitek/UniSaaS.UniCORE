@@ -57,6 +57,30 @@ Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom.
 
 He has read this disclosure, authorised its publication, and accepts editorial responsibility for every file in this repository.
 
+## The standard disclosure line
+
+Going forward, artifacts authored in this programme carry a single, human-signed disclosure line:
+
+> `© <Human Name> — my work, AI-assisted (<Model>, Anthropic, 2026-3120).`
+
+For this programme's foundation repositories the human is **Bryan Fred**, and the current assisting model is **Claude Opus 4.8**:
+
+> `© Bryan Fred — my work, AI-assisted (Claude Opus 4.8, Anthropic, 2026-3120).`
+
+How to read the line:
+
+- **`© <Human Name>` and `my work`** — the named human is the author and the accountable party. The AI assists in expressing the human's work; it does not author it, does not sign as author, and does not hold copyright. Copyright in this individually human-authored, AI-assisted work is the human author's and runs for the ordinary legal term (the author's life plus 70 years in the UK, US, and EU). The line asserts no other copyright term.
+- **`<Model>, Anthropic`** — the assisting model, recorded as it was at the moment of authorship (today, Claude Opus 4.8). When the assisting model changes, new artifacts record the new model; existing artifacts keep the model that authored them. A repository will therefore show different models across time — that spread is the provenance record.
+- **`2026-3120`** — the foundation's **endurance horizon**, not a copyright term: from the year the work began (2026) to the **Grand Alignment of the planets of the solar system, near 3120** — a real, computable astronomical event. The horizon is anchored to a celestial clock precisely because that clock depends on no institution, government, company, or person surviving. It states how long the work is *meant to endure*.
+
+This line is disclosure made **openly, by the accountable human, on the face of the work** — which satisfies the transparency that statutory AI-marking regimes (such as the EU AI Act) actually seek: that a person can know a work is AI-assisted, and who stands behind it. It is stronger than an invisible vendor watermark, which no reader can see and which exists mainly to detect undisclosed AI use. This programme discloses above that requirement, by name.
+
+The governing standard for how Claws apply this line is the workspace doctrine at [`workspace-doctrine/v1/AI-ASSISTED-DISCLOSURE.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/AI-ASSISTED-DISCLOSURE.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/AI-ASSISTED-DISCLOSURE.md)).
+
 ---
 
 *This file was written by the AI system assisting this programme and is published under the sole authority of Bryan Fred.*
+
+---
+
+© Bryan Fred — my work, AI-assisted (Claude Opus 4.8, Anthropic, 2026-3120).
