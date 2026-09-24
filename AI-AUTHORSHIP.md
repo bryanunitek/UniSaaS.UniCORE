@@ -45,11 +45,7 @@ But the operational layer — the one that actually touches Bryan's repositories
 
 ## Scope
 
-This disclosure applies to:
-
-- All documentation in this repository
-- All code contributions in the UniCORE implementation repository
-- All press releases, whitepapers, and governance documents across the programme
+**This single file is the repository-wide AI-assistance disclosure.** It applies to **every file in this repository** — all documentation, code, press releases, whitepapers, and governance documents across the programme. Individual files do not each need their own disclosure mark; this one disclosure covers the whole repository. Where a specific file names its own human author (for example an `Author:` line), that identifies the author of that file and complements, but does not replace, this repository-wide disclosure.
 
 ## The named human author
 
